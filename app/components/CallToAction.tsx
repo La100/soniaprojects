@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 
 export default function CallToAction() {
   return (
@@ -28,13 +27,10 @@ export default function CallToAction() {
         </div>
 
         <div className="relative w-full max-w-4xl mx-auto aspect-[4/3] rounded-[2.5rem] overflow-hidden">
-          <Image
+          <img
             src="https://utfs.io/f/wooH0SnRkga3tF9uFFCQJvOTwBKqxRSeka0ImEuHbM3roNU5"
             alt="Architektura wnętrz"
-            fill
-            className="object-cover"
-            sizes="(max-width: 768px) 100vw, 896px"
-            priority
+            className="object-cover absolute inset-0 w-full h-full"
           />
         </div>
       </div>

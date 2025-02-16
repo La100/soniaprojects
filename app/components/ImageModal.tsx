@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect } from 'react';
-import Image from 'next/image';
 
 interface ImageModalProps {
   imageUrl: string;
@@ -26,12 +25,10 @@ export default function ImageModal({ imageUrl, alt, onClose }: ImageModalProps) 
       onClick={onClose}
     >
       <div className="relative w-full max-w-5xl h-[80vh]" onClick={e => e.stopPropagation()}>
-        <Image
+        <img
           src={imageUrl}
           alt={alt}
-          fill
-          className="object-contain"
-          sizes="(max-width: 1024px) 100vw, 80vw"
+          className="object-contain absolute inset-0 w-full h-full"
         />
         <button
           onClick={onClose}

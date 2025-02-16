@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function About() {
   return (
     <section className="py-8 px-4 md:px-8">
@@ -16,27 +14,24 @@ export default function About() {
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="relative h-[800px]">
-          <Image
+          <img
             src="https://utfs.io/f/wooH0SnRkga30uwRNIOWDVvJRrE9Iwm5u28joLZAnHCcPzOF"
             alt="Minimalist interior design"
-            fill
-            className="object-cover rounded-lg"
+            className="object-cover rounded-lg absolute inset-0 w-full h-full"
           />
         </div>
         <div className="relative h-[800px]">
-          <Image
+          <img
             src="https://utfs.io/f/wooH0SnRkga3kSY2c0dMi6jsZMbDlfQnPc49pFr7CvWEgoam"
             alt="Modern exterior design"
-            fill
-            className="object-cover rounded-lg"
+            className="object-cover rounded-lg absolute inset-0 w-full h-full"
           />
         </div>
         <div className="relative h-[800px]">
-          <Image
+          <img
             src="https://utfs.io/f/wooH0SnRkga3xfHYXA2RfzjVHtInU037mQMCihecBWZ1KvA8"
             alt="Luxury pool area"
-            fill
-            className="object-cover rounded-lg"
+            className="object-cover rounded-lg absolute inset-0 w-full h-full"
           />
         </div>
       </div>

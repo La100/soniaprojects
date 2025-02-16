@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 const Services = () => {
   return (
     <section className="py-8 px-6 md:px-8 max-w-7xl mx-auto">
@@ -9,13 +7,10 @@ const Services = () => {
       <div className="space-y-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div className="relative h-[700px] w-full">
-            <Image
+            <img
               src="https://utfs.io/f/wooH0SnRkga3TmUSQX5hP0gC2OjH4pS9YoJeRsulcZErV1aA"
               alt="Projektowanie wnętrz"
-              fill
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-cover rounded-2xl"
-              priority
+              className="object-cover rounded-2xl absolute inset-0 w-full h-full"
             />
           </div>
           <div className="space-y-6">
@@ -74,26 +69,20 @@ const Services = () => {
             </ul>
           </div>
           <div className="relative h-[700px] order-1 md:order-2">
-            <Image
+            <img
               src="https://utfs.io/f/wooH0SnRkga3UxiKppsCQ5qc1kiotnjEv0ZNsgSxBarmTFyu"
               alt="Wizualizacje 3D"
-              fill
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-cover rounded-2xl"
-              priority
+              className="object-cover rounded-2xl absolute inset-0 w-full h-full"
             />
           </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div className="relative h-[700px] w-full">
-            <Image
+            <img
               src="https://utfs.io/f/wooH0SnRkga34nataOVdcntR5IYSlU98iaGPCVHQAmrjvOZE"
               alt="Konsultacje i doradztwo"
-              fill
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-cover rounded-2xl"
-              priority
+              className="object-cover rounded-2xl absolute inset-0 w-full h-full"
             />
           </div>
           <div className="space-y-6">

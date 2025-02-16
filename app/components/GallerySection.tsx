@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 interface GallerySectionProps {
   title: string;
   subtitle?: string;
@@ -25,13 +23,10 @@ export default function GallerySection({ title, subtitle, images, onImageClick }
             className="relative aspect-square overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
             onClick={() => onImageClick(image)}
           >
-            <Image
+            <img
               src={image.url}
               alt={image.alt}
-              fill
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 33vw"
-              className="object-cover hover:scale-105 transition-transform duration-300"
-              priority={index < 2}
+              className="object-cover hover:scale-105 transition-transform duration-300 absolute inset-0 w-full h-full"
             />
           </div>
         ))}

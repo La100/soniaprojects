@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Hero() {
   return (
     <div className="pt-12 md:pt-12">
@@ -23,13 +21,10 @@ export default function Hero() {
         </div>
         <div className="order-2 md:order-2">
           <div className="w-full max-w-2xl mx-auto overflow-hidden rounded-xl">
-            <Image
+            <img
               src="https://utfs.io/f/wooH0SnRkga36nQbodxJsL1yfa0XgupBWGbeUVrknDiNISQm"
               alt="Modern living room with sage green sofa, decorative elements, and plants"
-              width={1600}
-              height={900}
               className="object-cover w-full h-full"
-              priority
             />
           </div>
         

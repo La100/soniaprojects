@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function Services() {
   return (
     <main className="min-h-screen px-6 pt-12 md:px-8 max-w-7xl mx-auto">
@@ -16,11 +14,9 @@ export default function Services() {
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
-          <Image 
+          <img 
             src="https://utfs.io/f/wooH0SnRkga3WALGGNQo1nONrkxFKAstWJDBwmVhLiYqe0zl"
             alt="Projektowanie wnętrz"
-            width={800}
-            height={600}
             className="w-full h-[400px] object-cover"
           />
           <div className="p-8 space-y-4">
@@ -39,11 +35,9 @@ export default function Services() {
         </div>
 
         <div className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
-          <Image 
+          <img 
             src="https://utfs.io/f/wooH0SnRkga3UxiKppsCQ5qc1kiotnjEv0ZNsgSxBarmTFyu"
             alt="Wizualizacje 3D"
-            width={800}
-            height={600}
             className="w-full h-[400px] object-cover"
           />
           <div className="p-8 space-y-4">
@@ -61,11 +55,9 @@ export default function Services() {
         </div>
 
         <div className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
-          <Image 
+          <img 
             src="https://utfs.io/f/wooH0SnRkga34nataOVdcntR5IYSlU98iaGPCVHQAmrjvOZE"
             alt="Konsultacje i doradztwo"
-            width={800}
-            height={600}
             className="w-full h-[400px] object-cover"
           />
           <div className="p-8 space-y-4">

@@ -6,7 +6,6 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import Image from 'next/image';
 
 interface ProjectCarouselProps {
   title: string;
@@ -79,13 +78,11 @@ export default function ProjectCarousel({ title, subtitle, description, images }
               <SwiperSlide key={index} className="cursor-grab active:cursor-grabbing">
                 <div className="w-full h-full relative p-2">
                   <div className="w-full h-full relative overflow-hidden rounded-2xl shadow-lg bg-white">
-                    <Image
+                    <img
                       src={image}
                       alt={`Projekt ${index + 1}`}
                       className="w-full h-full object-cover pointer-events-none absolute inset-0"
                       draggable="false"
-                      width={1000}
-                      height={1000}
                     />
                   </div>
                 </div>

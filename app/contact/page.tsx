@@ -1,5 +1,3 @@
-
-import Image from 'next/image';
 import ContactForm from '../components/ContactForm';
 
 export default function Contact() {
@@ -51,12 +49,10 @@ export default function Contact() {
       <div className="px-6 md:px-8 max-w-7xl mx-auto">
         <div className="w-full h-[600px] relative mt-20 rounded-[2.5rem] overflow-hidden">
           <div className="absolute inset-0 bg-black/10" />
-          <Image
+          <img
             src="https://utfs.io/f/wooH0SnRkga3QOYpX9qRMW60Bs8qnbdYE9hzu2ZlrIw5cvox"
             alt="Contact background"
-            fill
-            className="object-cover"
-            priority
+            className="object-cover absolute inset-0 w-full h-full"
           />
         </div>
       </div>
