@@ -1,17 +1,23 @@
+'use client';
+
 import ContactForm from '../components/ContactForm';
+import { useLanguage } from '../contexts/LanguageContext';
+import { translations } from '../locales/translations';
 
 export default function Contact() {
+  const { language } = useLanguage();
+  const t = translations.contact[language];
+
   return (
     <main className="min-h-screen">
       <div className="px-6 pt-20 md:px-8 max-w-7xl mx-auto mb-20">
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="space-y-6">
-            <h1 className="text-4xl md:text-6xl  mb-4">
-              Nawiążmy współpracę
+            <h1 className="text-4xl md:text-6xl mb-4">
+              {t.title}
             </h1>
             <p className="text-lg text-neutral-600 max-w-md">
-              Masz pytanie lub chcesz rozpocząć współpracę? Napisz do mnie, 
-              a odpowiem najszybciej jak to możliwe.
+              {t.description}
             </p>
             <div className="space-y-4 pt-6">
               <div className="flex items-center space-x-3">
@@ -28,7 +34,7 @@ export default function Contact() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" 
                     d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                <span>Warszawa, Polska</span>
+                <span>{t.location}</span>
               </div>
               <div className="flex items-center space-x-3">
                 <a href="tel:+48696600364">
@@ -51,7 +57,7 @@ export default function Contact() {
           <div className="absolute inset-0 bg-black/10" />
           <img
             src="https://utfs.io/f/wooH0SnRkga3QOYpX9qRMW60Bs8qnbdYE9hzu2ZlrIw5cvox"
-            alt="Contact background"
+            alt={t.imageAlt}
             className="object-cover absolute inset-0 w-full h-full"
           />
         </div>

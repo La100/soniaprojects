@@ -12,9 +12,10 @@ interface ProjectCarouselProps {
   subtitle: string;
   description: string;
   images: string[];
+  imageAlt?: string;
 }
 
-export default function ProjectCarousel({ title, subtitle, description, images }: ProjectCarouselProps) {
+export default function ProjectCarousel({ title, subtitle, description, images, imageAlt = 'Projekt' }: ProjectCarouselProps) {
   const [mounted, setMounted] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -80,7 +81,7 @@ export default function ProjectCarousel({ title, subtitle, description, images }
                   <div className="w-full h-full relative overflow-hidden rounded-2xl shadow-lg bg-white">
                     <img
                       src={image}
-                      alt={`Projekt ${index + 1}`}
+                      alt={`${imageAlt} ${index + 1}`}
                       className="w-full h-full object-cover pointer-events-none absolute inset-0"
                       draggable="false"
                     />

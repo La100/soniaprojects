@@ -1,7 +1,12 @@
 'use client';
 import { useState } from 'react';
+import { useLanguage } from '../contexts/LanguageContext';
+import { translations } from '../locales/translations';
 
 export default function ContactForm() {
+  const { language } = useLanguage();
+  const t = translations.contact[language].form;
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -22,7 +27,7 @@ export default function ContactForm() {
         body: JSON.stringify(formData),
       });
 
-      if (!response.ok) throw new Error('Wystąpił błąd podczas wysyłania');
+      if (!response.ok) throw new Error(t.apiError);
       
       setStatus('success');
       setFormData({ name: '', email: '', message: '' });
@@ -35,7 +40,7 @@ export default function ContactForm() {
     <div className="bg-white rounded-2xl p-8 shadow-lg">
       <form className="space-y-6" onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="name" className="block text-sm font-medium mb-2">Imię i nazwisko</label>
+          <label htmlFor="name" className="block text-sm font-medium mb-2">{t.name}</label>
           <input
             type="text"
             id="name"
@@ -46,7 +51,7 @@ export default function ContactForm() {
           />
         </div>
         <div>
-          <label htmlFor="email" className="block text-sm font-medium mb-2">Email</label>
+          <label htmlFor="email" className="block text-sm font-medium mb-2">{t.email}</label>
           <input
             type="email"
             id="email"
@@ -57,7 +62,7 @@ export default function ContactForm() {
           />
         </div>
         <div>
-          <label htmlFor="message" className="block text-sm font-medium mb-2">Wiadomość</label>
+          <label htmlFor="message" className="block text-sm font-medium mb-2">{t.message}</label>
           <textarea
             id="message"
             rows={4}
@@ -72,13 +77,13 @@ export default function ContactForm() {
           disabled={status === 'loading'}
           className="w-full px-6 py-3 bg-black text-white rounded-full hover:bg-neutral-800 disabled:bg-gray-400 transition-colors duration-200"
         >
-          {status === 'loading' ? 'Wysyłanie...' : 'Wyślij wiadomość'}
+          {status === 'loading' ? t.sending : t.submit}
         </button>
         {status === 'success' && (
-          <p className="text-green-600 text-center">Wiadomość została wysłana!</p>
+          <p className="text-green-600 text-center">{t.success}</p>
         )}
         {status === 'error' && (
-          <p className="text-red-600 text-center">Wystąpił błąd podczas wysyłania wiadomości.</p>
+          <p className="text-red-600 text-center">{t.error}</p>
         )}
       </form>
     </div>

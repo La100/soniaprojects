@@ -1,9 +1,14 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import LanguageToggle from './LanguageToggle';
+import { useLanguage } from '../contexts/LanguageContext';
+import { translations } from '../locales/translations';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { language } = useLanguage();
+  const t = translations.header[language];
 
   return (
     <header className="border-b border-neutral-200">
@@ -50,20 +55,21 @@ export default function Header() {
           {/* Menu desktopowe */}
           <nav className="hidden md:flex items-center gap-8">
             <Link href="/projects" className="text-sm hover:text-neutral-600">
-              Realizacje
+              {t.projects}
             </Link>
             <Link href="/services" className="text-sm hover:text-neutral-600">
-              Usługi
+              {t.services}
             </Link>
             <Link href="/gallery" className="text-sm hover:text-neutral-600">
-              Projekty
+              {t.gallery}
             </Link>
             <Link
               href="/contact"
               className="text-sm px-4 py-2 bg-black text-white rounded-full hover:bg-neutral-800"
             >
-              Kontakt
+              {t.contact}
             </Link>
+            <LanguageToggle />
           </nav>
         </div>
 
@@ -84,43 +90,45 @@ export default function Header() {
                 className="text-lg font-medium hover:text-neutral-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Realizacje
+                {t.projects}
               </Link>
               <Link 
                 href="/services" 
                 className="text-lg font-medium hover:text-neutral-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-               Usługi
+                {t.services}
               </Link>
               <Link 
                 href="/gallery" 
                 className="text-lg font-medium hover:text-neutral-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                 Projekty
+                {t.gallery}
               </Link>
               <Link
                 href="/contact"
                 className="text-lg font-medium px-6 py-3 bg-black text-white rounded-full hover:bg-neutral-800 inline-block text-center transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                 Kontakt
+                {t.contact}
               </Link>
+              <div className="mt-4">
+                <LanguageToggle />
+              </div>
             </nav>
 
             {/* Dodatkowe informacje w menu mobilnym */}
             <div className="mt-16 space-y-6 text-neutral-600">
               <div>
-                <h3 className="text-sm font-medium text-black mb-2">Kontact</h3>
+                <h3 className="text-sm font-medium text-black mb-2">{t.mobileMenu.contact}</h3>
                 <p className="text-sm">soniaarchitektura@gmail.com</p>
                 <p className="text-sm">+48 696 600 364</p>
               </div>
               <div>
-                <h3 className="text-sm font-medium text-black mb-2">Social Media</h3>
+                <h3 className="text-sm font-medium text-black mb-2">{t.mobileMenu.socialMedia}</h3>
                 <div className="flex gap-4">
                   <a href="https://www.instagram.com/sonia_projects/" className="text-sm hover:text-black transition-colors">Instagram</a>
-              
                 </div>
               </div>
             </div>

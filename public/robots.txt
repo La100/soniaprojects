@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://soniaprojects.pl/sitemap.xml 

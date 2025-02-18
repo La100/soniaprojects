@@ -1,6 +1,8 @@
 'use client';
 
 import { useEffect } from 'react';
+import { useLanguage } from '../contexts/LanguageContext';
+import { translations } from '../locales/translations';
 
 interface ImageModalProps {
   imageUrl: string;
@@ -9,6 +11,9 @@ interface ImageModalProps {
 }
 
 export default function ImageModal({ imageUrl, alt, onClose }: ImageModalProps) {
+  const { language } = useLanguage();
+  const t = translations.modal[language];
+
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
@@ -33,6 +38,7 @@ export default function ImageModal({ imageUrl, alt, onClose }: ImageModalProps) 
         <button
           onClick={onClose}
           className="absolute top-4 right-4 text-white bg-black bg-opacity-50 rounded-full p-2 hover:bg-opacity-70 transition-all"
+          aria-label={t.close}
         >
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
