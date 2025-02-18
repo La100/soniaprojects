@@ -11,7 +11,7 @@ export async function POST(request: Request) {
       from: 'Sonia projects <sonia@soniaprojects.pl>',
       to: ['soniaarchitektura@gmail.com'],
       subject: `Nowa wiadomość od ${name}`,
-      react: EmailTemplate({ name, email, message }),
+      react: EmailTemplate({ name, email, message, language: 'pl' }),
    
     });
 

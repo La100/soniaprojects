@@ -31,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pl">
+    <html lang="en">
       <body className={`${inter.className} ${playfair.variable}`}>
         <LanguageProvider>
           <div className="max-w-screen-xl mx-auto px-6 md:px-8">
