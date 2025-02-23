@@ -9,7 +9,7 @@ export default function About() {
 
   return (
     <section className="py-8 px-4 md:px-8">
-      <div className="max-w-2xl mb-12 mx-auto text-center">
+      <div className="max-w-2xl mb-12 mx-auto text-center bg-white/90 backdrop-blur-sm rounded-xl p-8 shadow-lg">
         <h2 className="text-3xl font-semibold mb-8">{t.title}</h2>
         <p className="mb-6">
           {t.description1}

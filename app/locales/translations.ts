@@ -100,7 +100,7 @@ export const translations = {
         title: 'Wizualizacje 3D',
         description: 'Tworzę fotorealistyczne wizualizacje, które pozwalają zobaczyć efekt końcowy przed rozpoczęciem prac.',
         features: [
-          'Renderingi wnętrz w wysokiej rozdzielczości',
+          'Rendery wnętrz w wysokiej rozdzielczości',
           'Animacje i wirtualne spacery',
           'Wizualizacje poszczególnych pomieszczeń',
           'Prezentacje różnych wariantów wykończenia'
@@ -241,6 +241,10 @@ export const translations = {
       subtitle: 'Odkryj moje wizualizacje, które oddają unikalny charakter każdej przestrzeni.',
       sections: [
         {
+          title: 'REMONT MIESZKANIA DLA RODZINY',
+          images: Array(5).fill({ alt: 'Zdjęcia z remontu mieszkania' })
+        },
+        {
           title: 'ŁAZIENKA W DOMU JEDNORODZINNYM',
           images: Array(4).fill({ alt: 'Wizualizacja łazienki' })
         },
@@ -268,6 +272,10 @@ export const translations = {
       title: 'GALLERY',
       subtitle: 'Discover my visualizations that capture the unique character of each space.',
       sections: [
+        {
+          title: 'RENOVATION OF APARTMENT FOR A FAMILY',
+          images: Array(5).fill({ alt: 'Apartment renovation photos' })
+        },
         {
           title: 'BATHROOM IN A SINGLE-FAMILY HOUSE',
           images: Array(4).fill({ alt: 'Bathroom visualization' })

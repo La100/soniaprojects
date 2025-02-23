@@ -10,6 +10,25 @@ const galleryImages = [
   {
     images: [
       {
+        url: "/fotki/KUCHNIA_01.jpg",
+      },
+      {
+        url: "/fotki/KUCHNIA_02.jpg",
+      },
+      {
+        url: "/fotki/SALON_01.jpg",
+      },
+      {
+        url: "/fotki/WC_01.jpg",
+      },
+      {
+        url: "/fotki/WC_02.jpg",
+      }
+    ]
+  },
+  {
+    images: [
+      {
         url: "/gallery/image00034.jpeg",
       },
       {

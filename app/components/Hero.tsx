@@ -31,7 +31,7 @@ export default function Hero() {
         <div className="order-2 md:order-2">
           <div className="w-full max-w-2xl mx-auto overflow-hidden rounded-xl">
             <img
-              src="https://utfs.io/f/wooH0SnRkga36nQbodxJsL1yfa0XgupBWGbeUVrknDiNISQm"
+              src="/fotki/WC_01.jpg"
               alt={t.imageAlt}
               className="object-cover w-full h-full"
             />

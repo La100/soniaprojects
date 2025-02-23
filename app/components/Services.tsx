@@ -21,7 +21,7 @@ const Services = () => {
               className="object-cover rounded-2xl absolute inset-0 w-full h-full"
             />
           </div>
-          <div className="space-y-6">
+          <div className="space-y-6 bg-white/90 backdrop-blur-sm rounded-xl p-8 shadow-lg">
             <h2 className="text-2xl font-medium">{t.interiorDesign.title}</h2>
             <p className="text-neutral-600 leading-relaxed">
               {t.interiorDesign.description}
@@ -38,7 +38,7 @@ const Services = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-          <div className="space-y-6 order-2 md:order-1">
+          <div className="space-y-6 order-2 md:order-1 bg-white/90 backdrop-blur-sm rounded-xl p-8 shadow-lg">
             <h2 className="text-2xl font-medium">{t.visualization3d.title}</h2>
             <p className="text-neutral-600 leading-relaxed">
               {t.visualization3d.description}
@@ -69,7 +69,7 @@ const Services = () => {
               className="object-cover rounded-2xl absolute inset-0 w-full h-full"
             />
           </div>
-          <div className="space-y-6">
+          <div className="space-y-6 bg-white/90 backdrop-blur-sm rounded-xl p-8 shadow-lg">
             <h2 className="text-2xl font-medium">{t.consultation.title}</h2>
             <p className="text-neutral-600 leading-relaxed">
               {t.consultation.description}
