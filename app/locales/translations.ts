@@ -241,7 +241,7 @@ export const translations = {
       subtitle: 'Odkryj moje wizualizacje, które oddają unikalny charakter każdej przestrzeni.',
       sections: [
         {
-          title: 'REMONT MIESZKANIA DLA RODZINY',
+          title: 'RENOWACJA MIESZKANIA MŁODEJ RODZINY',
           images: Array(5).fill({ alt: 'Zdjęcia z remontu mieszkania' })
         },
         {

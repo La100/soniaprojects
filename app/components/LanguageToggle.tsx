@@ -11,7 +11,7 @@ export default function LanguageToggle() {
       className="px-2 py-1 text-sm font-medium text-gray-700 hover:text-gray-900"
       aria-label="Toggle language"
     >
-      {language === 'pl' ? 'English' : 'Polish'}
+      {language === 'pl' ? 'English' : 'Polski'}
     </button>
   );
 } 
