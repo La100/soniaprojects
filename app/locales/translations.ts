@@ -71,7 +71,7 @@ export const translations = {
       }
     },
     en: {
-      title: 'Who I am',
+      title: 'About me',
       description1: 'I design interiors with character. Each space tells a new story - whether it\'s a cozy home, modern office, or elegant commercial space. I care about every detail.',
       description2: 'I combine the latest trends with proven solutions. Your dreams and needs are my priority. Together we will create an interior that will inspire you.',
       images: {
