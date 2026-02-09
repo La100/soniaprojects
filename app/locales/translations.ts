@@ -4,6 +4,7 @@ export const translations = {
       projects: 'Realizacje',
       services: 'Usługi',
       gallery: 'Projekty',
+      blog: 'Blog',
       contact: 'Kontakt',
       mobileMenu: {
         contact: 'Kontakt',
@@ -14,6 +15,7 @@ export const translations = {
       projects: 'Projects',
       services: 'Services',
       gallery: 'Gallery',
+      blog: 'Blog',
       contact: 'Contact',
       mobileMenu: {
         contact: 'Contact',
