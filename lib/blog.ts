@@ -8,6 +8,8 @@ export type BlogPostMeta = {
   date: string; // ISO string recommended
   description?: string;
   tags?: string[];
+  image?: string; // e.g. /blog/japandi-1.png
+  images?: string[];
 };
 
 const BLOG_DIR = path.join(process.cwd(), "content", "blog");
@@ -39,6 +41,8 @@ export function getBlogPostRawBySlug(slug: string): { meta: BlogPostMeta; conten
     date?: unknown;
     description?: unknown;
     tags?: unknown;
+    image?: unknown;
+    images?: unknown;
   };
 
   if (!data.title || typeof data.title !== "string") {
@@ -50,6 +54,9 @@ export function getBlogPostRawBySlug(slug: string): { meta: BlogPostMeta; conten
 
   const tags = Array.isArray(data.tags) ? data.tags.filter((t) => typeof t === "string") : undefined;
 
+  const image = typeof data.image === "string" ? data.image : undefined;
+  const images = Array.isArray(data.images) ? data.images.filter((i) => typeof i === "string") : undefined;
+
   return {
     meta: {
       slug,
@@ -57,6 +64,8 @@ export function getBlogPostRawBySlug(slug: string): { meta: BlogPostMeta; conten
       date: data.date,
       description: typeof data.description === "string" ? data.description : undefined,
       tags,
+      image,
+      images,
     },
     content: parsed.content,
   };
