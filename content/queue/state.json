@@ -1,6 +1,13 @@
 {
-  "nextIndex": 0,
+  "nextIndex": 1,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
-  "hour": 8
+  "hour": 8,
+  "lastPublished": {
+    "index": 0,
+    "slug": "ile-kosztuje-projekt-wnetrza-warszawa-2026",
+    "title": "Ile kosztuje projekt wnętrza w Warszawie w 2026? Pakiety, zakres i realne widełki",
+    "date": "2026-02-10",
+    "file": "content/blog/ile-kosztuje-projekt-wnetrza-warszawa-2026.mdx"
+  }
 }
