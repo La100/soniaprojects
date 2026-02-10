@@ -1,14 +1,11 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import LanguageToggle from './LanguageToggle';
-import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../locales/translations';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { language } = useLanguage();
-  const t = translations.header[language];
+  const t = translations.header.pl;
 
   return (
     <header className="border-b border-neutral-200">
@@ -72,7 +69,6 @@ export default function Header() {
             >
               {t.contact}
             </Link>
-            <LanguageToggle />
           </nav>
         </div>
 
@@ -123,9 +119,7 @@ export default function Header() {
               >
                 {t.contact}
               </Link>
-              <div className="mt-4">
-                <LanguageToggle />
-              </div>
+              {/* PL only */}
             </nav>
 
             {/* Dodatkowe informacje w menu mobilnym */}

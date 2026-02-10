@@ -1,12 +1,10 @@
 'use client';
 
 import ContactForm from '../components/ContactForm';
-import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../locales/translations';
 
 export default function Contact() {
-  const { language } = useLanguage();
-  const t = translations.contact[language];
+  const t = translations.contact.pl;
 
   return (
     <main className="min-h-screen">

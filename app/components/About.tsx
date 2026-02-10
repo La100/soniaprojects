@@ -1,11 +1,9 @@
 'use client';
 
-import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../locales/translations';
 
 export default function About() {
-  const { language } = useLanguage();
-  const t = translations.about[language];
+  const t = translations.about.pl;
 
   return (
     <section className="py-8 px-4 md:px-8">

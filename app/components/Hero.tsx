@@ -1,11 +1,9 @@
 'use client';
 
-import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../locales/translations';
 
 export default function Hero() {
-  const { language } = useLanguage();
-  const t = translations.hero[language];
+  const t = translations.hero.pl;
 
   return (
     <div className="pt-12 md:pt-12">

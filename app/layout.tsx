@@ -4,7 +4,6 @@ import { Playfair_Display } from 'next/font/google';
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { LanguageProvider } from './contexts/LanguageContext';
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({ 
@@ -31,19 +30,36 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pl">
       <body className={`${inter.className} ${playfair.variable}`}>
-        <LanguageProvider>
-          <div className="max-w-screen-xl mx-auto px-6 md:px-8">
-            <Header />
-          </div>
-          <div className="max-w-screen-2xl mx-auto px-6 md:px-8">
-            {children}
-          </div>
-          <div className="max-w-screen-xl mx-auto px-6 md:px-8">
-            <Footer />
-          </div>
-        </LanguageProvider>
+        {/* Local SEO: Organization schema */}
+        <script
+          type="application/ld+json"
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ProfessionalService",
+              name: "Sonia Projects",
+              url: "https://soniaprojects.pl",
+              areaServed: "Warszawa",
+              email: "soniaarchitektura@gmail.com",
+              telephone: "+48696600364",
+              sameAs: ["https://www.instagram.com/sonia_projects/"],
+              description: "Projektowanie wnętrz i wizualizacje 3D.",
+            }),
+          }}
+        />
+
+        <div className="max-w-screen-xl mx-auto px-6 md:px-8">
+          <Header />
+        </div>
+        <div className="max-w-screen-2xl mx-auto px-6 md:px-8">
+          {children}
+        </div>
+        <div className="max-w-screen-xl mx-auto px-6 md:px-8">
+          <Footer />
+        </div>
       </body>
       <GoogleAnalytics gaId="G-C67G40NVBX" />
     </html>

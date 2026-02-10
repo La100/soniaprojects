@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { compileMDX } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
@@ -81,6 +82,19 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
             })}
           </time>
           {meta.description ? <p className="mt-4 text-neutral-700">{meta.description}</p> : null}
+
+          {meta.image ? (
+            <div className="mt-8 overflow-hidden rounded-2xl border border-neutral-200">
+              <Image
+                src={meta.image}
+                alt={meta.title}
+                width={1600}
+                height={900}
+                className="w-full h-auto"
+                priority
+              />
+            </div>
+          ) : null}
         </header>
 
         <article className="prose prose-neutral max-w-none mt-10">

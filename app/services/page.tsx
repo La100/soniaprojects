@@ -1,11 +1,9 @@
 'use client';
 
-import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../locales/translations';
 
 export default function Services() {
-  const { language } = useLanguage();
-  const t = translations.services[language];
+  const t = translations.services.pl;
 
   return (
     <main className="min-h-screen px-6 pt-12 md:px-8 max-w-7xl mx-auto">

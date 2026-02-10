@@ -20,7 +20,6 @@ export async function POST(request: Request) {
       to: ['soniaarchitektura@gmail.com'],
       subject: `Nowa wiadomość od ${name}`,
       react: EmailTemplate({ name, email, message, language: 'pl' }),
-   
     });
 
     if (error) {

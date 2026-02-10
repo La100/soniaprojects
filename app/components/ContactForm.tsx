@@ -1,11 +1,9 @@
 'use client';
 import { useState } from 'react';
-import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../locales/translations';
 
 export default function ContactForm() {
-  const { language } = useLanguage();
-  const t = translations.contact[language].form;
+  const t = translations.contact.pl.form;
 
   const [formData, setFormData] = useState({
     name: '',
