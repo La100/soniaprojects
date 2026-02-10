@@ -3,7 +3,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { compileMDX } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
-import { getBlogSlugs, getBlogPostRawBySlug } from "@/lib/blog";
+import { getBlogSlugs, getBlogPostRawBySlug, getRelatedBlogPosts } from "@/lib/blog";
 
 export const dynamicParams = false;
 
@@ -55,6 +55,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
   }
 
   const { content, meta } = post;
+  const related = getRelatedBlogPosts(meta, 3);
 
   const { content: mdxContent } = await compileMDX({
     source: content,
@@ -127,6 +128,24 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
 
           {mdxContent}
         </article>
+
+        {related.length ? (
+          <section className="mt-14 border-t border-neutral-200 pt-10">
+            <h2 className="text-2xl font-semibold">Przeczytaj też</h2>
+            <div className="mt-4 grid gap-4">
+              {related.map((p) => (
+                <Link
+                  key={p.slug}
+                  href={`/blog/${p.slug}`}
+                  className="block rounded-2xl border border-neutral-200 p-5 hover:bg-neutral-50 transition"
+                >
+                  <div className="font-medium">{p.title}</div>
+                  {p.description ? <div className="mt-1 text-sm text-neutral-600">{p.description}</div> : null}
+                </Link>
+              ))}
+            </div>
+          </section>
+        ) : null}
       </div>
     </main>
   );

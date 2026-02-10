@@ -81,3 +81,39 @@ export function getAllBlogPostsMeta(): BlogPostMeta[] {
     return bd - ad;
   });
 }
+
+function uniqueBySlug(items: BlogPostMeta[]) {
+  const seen = new Set<string>();
+  const out: BlogPostMeta[] = [];
+  for (const it of items) {
+    if (seen.has(it.slug)) continue;
+    seen.add(it.slug);
+    out.push(it);
+  }
+  return out;
+}
+
+export function getRelatedBlogPosts(current: BlogPostMeta, limit = 3): BlogPostMeta[] {
+  const all = getAllBlogPostsMeta().filter((p) => p.slug !== current.slug);
+  const currentTags = new Set((current.tags || []).map((t) => t.toLowerCase()));
+
+  const scored = all
+    .map((p) => {
+      const tags = (p.tags || []).map((t) => t.toLowerCase());
+      const score = tags.reduce((acc, t) => acc + (currentTags.has(t) ? 1 : 0), 0);
+      return { p, score };
+    })
+    .sort((a, b) => {
+      if (b.score !== a.score) return b.score - a.score;
+      // fallback to recency
+      return new Date(b.p.date).getTime() - new Date(a.p.date).getTime();
+    })
+    .map((x) => x.p);
+
+  const picked = uniqueBySlug(scored).slice(0, limit);
+  if (picked.length >= limit) return picked;
+
+  // If not enough tag matches, fill with latest.
+  const fill = uniqueBySlug([...picked, ...all]).slice(0, limit);
+  return fill;
+}
