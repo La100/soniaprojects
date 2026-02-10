@@ -9,13 +9,10 @@ export const metadata = {
     type: "website",
     url: "https://soniaprojects.pl/projektowanie-wnetrz-warszawa",
     title: "Projektowanie wnętrz Warszawa | Sonia Projects",
-    description:
-      "Projektowanie i aranżacja wnętrz w Warszawie i okolicach. Umów konsultację.",
+    description: "Projektowanie i aranżacja wnętrz w Warszawie i okolicach. Umów konsultację.",
     locale: "pl_PL",
   },
 };
-
-const phone = "+48 696 600 364";
 
 function JsonLd() {
   const json = {
@@ -59,8 +56,8 @@ export default function WarsawInteriorDesignPage() {
             Projektowanie wnętrz w Warszawie
           </h1>
           <p className="mt-4 text-neutral-700 text-lg leading-relaxed">
-            Szukasz <strong>architekta wnętrz</strong> lub <strong>projektanta wnętrz</strong>
-            w Warszawie? Pomogę Ci przejść przez cały proces — od koncepcji i układu
+            Szukasz <strong>architekta wnętrz</strong> lub <strong>projektanta wnętrz</strong> w
+            Warszawie? Pomogę Ci przejść przez cały proces — od koncepcji i układu
             funkcjonalnego po dobór materiałów i wsparcie na etapie realizacji.
           </p>
 
@@ -71,12 +68,6 @@ export default function WarsawInteriorDesignPage() {
             >
               Umów konsultację
             </Link>
-            <a
-              href={`tel:${phone.replace(/\s+/g, "")}`}
-              className="inline-flex justify-center px-6 py-3 text-base font-medium border border-neutral-300 rounded-full hover:bg-neutral-50"
-            >
-              Zadzwoń: {phone}
-            </a>
           </div>
         </header>
 
@@ -104,18 +95,10 @@ export default function WarsawInteriorDesignPage() {
         <section className="mt-14">
           <h2 className="text-2xl font-semibold">Jak wygląda współpraca?</h2>
           <ol className="mt-4 space-y-3 text-neutral-700 list-decimal pl-5">
-            <li>
-              Krótka konsultacja: potrzeby, styl życia, budżet, termin.
-            </li>
-            <li>
-              Inwentaryzacja (na miejscu w Warszawie lub online) + koncepcja funkcjonalna.
-            </li>
-            <li>
-              Projekt: układ, materiały, wizualizacje (opcjonalnie), lista zakupowa.
-            </li>
-            <li>
-              Wsparcie na etapie realizacji: decyzje, korekty, konsultacje.
-            </li>
+            <li>Krótka konsultacja: potrzeby, styl życia, budżet, termin.</li>
+            <li>Inwentaryzacja (na miejscu w Warszawie lub online) + koncepcja funkcjonalna.</li>
+            <li>Projekt: układ, materiały, wizualizacje (opcjonalnie), lista zakupowa.</li>
+            <li>Wsparcie na etapie realizacji: decyzje, korekty, konsultacje.</li>
           </ol>
         </section>
 
@@ -175,8 +158,8 @@ export default function WarsawInteriorDesignPage() {
             <div>
               <h3 className="font-medium">Czy robisz projekty mieszkań w kamienicach?</h3>
               <p className="text-neutral-700 mt-1">
-                Tak — to często wymaga więcej planowania (instalacje, akustyka, formalności),
-                ale efekt może być wyjątkowy.
+                Tak — to często wymaga więcej planowania (instalacje, akustyka, formalności), ale
+                efekt może być wyjątkowy.
               </p>
             </div>
           </div>
@@ -185,7 +168,8 @@ export default function WarsawInteriorDesignPage() {
         <section className="mt-16 rounded-2xl bg-neutral-50 border border-neutral-200 p-8">
           <h2 className="text-2xl font-semibold">Porozmawiajmy o Twoim wnętrzu</h2>
           <p className="mt-3 text-neutral-700">
-            Napisz kilka zdań o mieszkaniu/domu i oczekiwaniach — wrócę z propozycją kolejnych kroków.
+            Napisz kilka zdań o mieszkaniu/domu i oczekiwaniach — wrócę z propozycją kolejnych
+            kroków.
           </p>
           <div className="mt-6 flex flex-col sm:flex-row gap-3">
             <Link
@@ -194,12 +178,6 @@ export default function WarsawInteriorDesignPage() {
             >
               Przejdź do kontaktu
             </Link>
-            <a
-              href={`tel:${phone.replace(/\s+/g, "")}`}
-              className="inline-flex justify-center px-6 py-3 text-base font-medium border border-neutral-300 rounded-full hover:bg-white"
-            >
-              Zadzwoń
-            </a>
           </div>
         </section>
 

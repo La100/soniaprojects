@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { translations } from '../locales/translations';
+import { translations } from "../locales/translations";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,37 +12,37 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 py-4 md:px-8">
         <div className="flex justify-between">
           <Link href="/" className="text-xl font-medium flex items-end gap-2">
-           <img src="/logosonia.png" alt="Sonia Projects" width={50} height={50} />
-           <span className="mb-0">Sonia Projects</span>
+            <img src="/logosonia.png" alt="Sonia Projects" width={50} height={50} />
+            <span className="mb-0">Sonia Projects</span>
           </Link>
-          
+
           {/* Przycisk menu mobilnego */}
-          <button 
+          <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="md:hidden z-50 relative"
           >
-            <svg 
-              width="24" 
-              height="24" 
-              viewBox="0 0 24 24" 
-              fill="none" 
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
               xmlns="http://www.w3.org/2000/svg"
               className={isMenuOpen ? "text-black" : "text-black"}
             >
               {isMenuOpen ? (
-                <path 
-                  d="M6 18L18 6M6 6L18 18" 
-                  stroke="currentColor" 
-                  strokeWidth="2.5" 
-                  strokeLinecap="round" 
+                <path
+                  d="M6 18L18 6M6 6L18 18"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
                   strokeLinejoin="round"
                 />
               ) : (
-                <path 
-                  d="M4 6H20M4 12H20M4 18H20" 
-                  stroke="currentColor" 
-                  strokeWidth="2.5" 
-                  strokeLinecap="round" 
+                <path
+                  d="M4 6H20M4 12H20M4 18H20"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
                   strokeLinejoin="round"
                 />
               )}
@@ -63,7 +63,10 @@ export default function Header() {
             <Link href="/blog" className="text-sm hover:text-neutral-600">
               {t.blog}
             </Link>
-            <Link href="/projektowanie-wnetrz-warszawa" className="text-sm hover:text-neutral-600">
+            <Link
+              href="/projektowanie-wnetrz-warszawa"
+              className="text-sm hover:text-neutral-600"
+            >
               {t.warsaw}
             </Link>
             <Link
@@ -76,47 +79,47 @@ export default function Header() {
         </div>
 
         {/* Menu mobilne */}
-        <div 
+        <div
           className={`
             fixed inset-y-0 right-0 w-72 transform transition-transform duration-300 ease-in-out bg-[hsl(36,33%,97%)]
-            ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}
+            ${isMenuOpen ? "translate-x-0" : "translate-x-full"}
             md:hidden
             shadow-lg
           `}
-          style={{ top: '0', zIndex: 40 }}
+          style={{ top: "0", zIndex: 40 }}
         >
           <div className="pt-24 px-8">
             <nav className="flex flex-col space-y-8">
-              <Link 
-                href="/projects" 
+              <Link
+                href="/projects"
                 className="text-lg font-medium hover:text-neutral-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t.projects}
               </Link>
-              <Link 
-                href="/services" 
+              <Link
+                href="/services"
                 className="text-lg font-medium hover:text-neutral-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t.services}
               </Link>
-              <Link 
-                href="/gallery" 
+              <Link
+                href="/gallery"
                 className="text-lg font-medium hover:text-neutral-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t.gallery}
               </Link>
-              <Link 
-                href="/blog" 
+              <Link
+                href="/blog"
                 className="text-lg font-medium hover:text-neutral-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t.blog}
               </Link>
-              <Link 
-                href="/projektowanie-wnetrz-warszawa" 
+              <Link
+                href="/projektowanie-wnetrz-warszawa"
                 className="text-lg font-medium hover:text-neutral-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -135,14 +138,22 @@ export default function Header() {
             {/* Dodatkowe informacje w menu mobilnym */}
             <div className="mt-16 space-y-6 text-neutral-600">
               <div>
-                <h3 className="text-sm font-medium text-black mb-2">{t.mobileMenu.contact}</h3>
+                <h3 className="text-sm font-medium text-black mb-2">
+                  {t.mobileMenu.contact}
+                </h3>
                 <p className="text-sm">soniaarchitektura@gmail.com</p>
-                <p className="text-sm">+48 696 600 364</p>
               </div>
               <div>
-                <h3 className="text-sm font-medium text-black mb-2">{t.mobileMenu.socialMedia}</h3>
+                <h3 className="text-sm font-medium text-black mb-2">
+                  {t.mobileMenu.socialMedia}
+                </h3>
                 <div className="flex gap-4">
-                  <a href="https://www.instagram.com/sonia_projects/" className="text-sm hover:text-black transition-colors">Instagram</a>
+                  <a
+                    href="https://www.instagram.com/sonia_projects/"
+                    className="text-sm hover:text-black transition-colors"
+                  >
+                    Instagram
+                  </a>
                 </div>
               </div>
             </div>
@@ -151,7 +162,7 @@ export default function Header() {
 
         {/* Overlay dla menu mobilnego */}
         {isMenuOpen && (
-          <div 
+          <div
             className="fixed inset-0 bg-black bg-opacity-50 md:hidden"
             onClick={() => setIsMenuOpen(false)}
             style={{ zIndex: 30 }}
@@ -160,4 +171,4 @@ export default function Header() {
       </div>
     </header>
   );
-} 
+}
