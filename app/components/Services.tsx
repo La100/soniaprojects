@@ -1,11 +1,9 @@
 'use client';
 
-import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../locales/translations';
 
 const Services = () => {
-  const { language } = useLanguage();
-  const t = translations.services[language];
+  const t = translations.services.pl;
 
   return (
     <section className="py-8 px-6 md:px-8 max-w-7xl mx-auto">

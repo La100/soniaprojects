@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect } from 'react';
-import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../locales/translations';
 
 interface ImageModalProps {
@@ -11,8 +10,7 @@ interface ImageModalProps {
 }
 
 export default function ImageModal({ imageUrl, alt, onClose }: ImageModalProps) {
-  const { language } = useLanguage();
-  const t = translations.modal[language];
+  const t = translations.modal.pl;
 
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {

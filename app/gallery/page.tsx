@@ -3,7 +3,6 @@
 import { useState } from "react";
 import ImageModal from "../components/ImageModal";
 import GallerySection from "../components/GallerySection";
-import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../locales/translations';
 
 const galleryImages = [
@@ -110,8 +109,7 @@ const galleryImages = [
 
 export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState<{url: string; alt: string} | null>(null);
-  const { language } = useLanguage();
-  const t = translations.gallery[language];
+  const t = translations.gallery.pl;
 
   return (
     <main className="min-h-screen px-6 md:px-8">

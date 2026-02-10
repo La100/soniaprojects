@@ -1,12 +1,10 @@
 'use client';
 
 import Link from "next/link";
-import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../locales/translations';
 
 export default function Footer() {
-  const { language } = useLanguage();
-  const t = translations.footer[language];
+  const t = translations.footer.pl;
 
   return (
     <footer className="mt-20 border-t border-neutral-200">

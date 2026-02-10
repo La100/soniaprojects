@@ -1,7 +1,6 @@
 'use client';
 
 import ProjectCarousel from '../components/ProjectCarousel';
-import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../locales/translations';
 
 const projectImages = [
@@ -47,8 +46,7 @@ const projectImages = [
 ];
 
 export default function Projects() {
-  const { language } = useLanguage();
-  const t = translations.projects[language];
+  const t = translations.projects.pl;
 
   return (
     <main className="min-h-screen">

@@ -1,12 +1,10 @@
 'use client';
 
 import Link from 'next/link'
-import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../locales/translations';
 
 export default function CallToAction() {
-  const { language } = useLanguage();
-  const t = translations.callToAction[language];
+  const t = translations.callToAction.pl;
 
   return (
     <section className="py-20">
