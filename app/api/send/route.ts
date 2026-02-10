@@ -1,9 +1,17 @@
 import { EmailTemplate } from '../../components/email-template';
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+export async function POST(request: Request) { 
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) {
+    return Response.json(
+      { error: "Missing RESEND_API_KEY env var." },
+      { status: 500 }
+    );
+  }
 
-export async function POST(request: Request) {
+  const resend = new Resend(apiKey);
+
   try {
     const { name, email, message } = await request.json();
 
