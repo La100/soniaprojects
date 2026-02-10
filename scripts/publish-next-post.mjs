@@ -24,7 +24,6 @@ function writeJson(p, obj) {
 }
 
 function todayISO(tz = "Europe/Warsaw") {
-  // Works correctly regardless of runner timezone.
   const parts = new Intl.DateTimeFormat("en-CA", {
     timeZone: tz,
     year: "numeric",
@@ -93,7 +92,6 @@ if (state.lastPublished?.date === date) {
 }
 
 const entry = plan[idx];
-
 const { dest } = publishFromQueue({ slug: entry.slug, title: entry.title, date });
 
 state.nextIndex = idx + 1;
