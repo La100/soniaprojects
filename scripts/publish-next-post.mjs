@@ -2,6 +2,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import matter from "gray-matter";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -9,6 +10,9 @@ const __dirname = path.dirname(__filename);
 const repoRoot = path.join(__dirname, "..");
 const planPath = path.join(repoRoot, "content", "queue", "plan-30.json");
 const statePath = path.join(repoRoot, "content", "queue", "state.json");
+
+const queuePostsDir = path.join(repoRoot, "content", "queue", "posts");
+const blogDir = path.join(repoRoot, "content", "blog");
 
 function readJson(p) {
   return JSON.parse(fs.readFileSync(p, "utf8"));
@@ -35,6 +39,37 @@ function todayISO(tz = "Europe/Warsaw") {
   return `${yyyy}-${mm}-${dd}`;
 }
 
+function ensureDir(p) {
+  fs.mkdirSync(p, { recursive: true });
+}
+
+function publishFromQueue({ slug, title, date }) {
+  ensureDir(queuePostsDir);
+  ensureDir(blogDir);
+
+  const src = path.join(queuePostsDir, `${slug}.mdx`);
+  if (!fs.existsSync(src)) {
+    throw new Error(
+      `Missing queued post file: ${path.relative(repoRoot, src)}.\n` +
+        `Put drafts in content/queue/posts/<slug>.mdx before running publish.`
+    );
+  }
+
+  const raw = fs.readFileSync(src, "utf8");
+  const parsed = matter(raw);
+
+  const data = { ...(parsed.data || {}) };
+  data.title = data.title || title;
+  data.date = date;
+
+  const out = matter.stringify(parsed.content.trimStart(), data);
+
+  const dest = path.join(blogDir, `${slug}.mdx`);
+  fs.writeFileSync(dest, out.trimEnd() + "\n", "utf8");
+
+  return { src, dest };
+}
+
 const plan = readJson(planPath);
 const state = readJson(statePath);
 
@@ -59,14 +94,18 @@ if (state.lastPublished?.date === date) {
 
 const entry = plan[idx];
 
-// We don't generate content here; the agent turn does. This script only advances state.
+const { dest } = publishFromQueue({ slug: entry.slug, title: entry.title, date });
+
 state.nextIndex = idx + 1;
 state.lastPublished = {
   index: idx,
   slug: entry.slug,
   title: entry.title,
   date,
+  file: path.relative(repoRoot, dest),
 };
 
 writeJson(statePath, state);
-console.log(`Advanced state to nextIndex=${state.nextIndex} (published: ${entry.slug})`);
+console.log(
+  `Published ${entry.slug} -> ${path.relative(repoRoot, dest)} and advanced state to nextIndex=${state.nextIndex}`
+);

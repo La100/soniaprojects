@@ -1,4 +1,4 @@
-name: Daily publish (advance queue)
+name: Daily publish (from queue)
 
 on:
   schedule:
@@ -14,7 +14,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  advance:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -33,7 +33,7 @@ jobs:
       - name: Install deps
         run: pnpm install --frozen-lockfile
 
-      - name: Advance queue state
+      - name: Publish next queued post
         run: node scripts/publish-next-post.mjs
 
       - name: Commit & push (if changed)
@@ -46,6 +46,6 @@ jobs:
           git config user.name "soniaprojects-bot"
           git config user.email "actions@users.noreply.github.com"
 
-          git add content/queue/state.json
-          git commit -m "chore(queue): publish next post"
+          git add content/queue/state.json content/blog
+          git commit -m "chore(blog): publish next post"
           git push
