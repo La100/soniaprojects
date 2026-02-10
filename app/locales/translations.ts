@@ -5,6 +5,7 @@ export const translations = {
       services: 'Usługi',
       gallery: 'Projekty',
       blog: 'Blog',
+      warsaw: 'Warszawa',
       contact: 'Kontakt',
       mobileMenu: {
         contact: 'Kontakt',

@@ -63,6 +63,9 @@ export default function Header() {
             <Link href="/blog" className="text-sm hover:text-neutral-600">
               {t.blog}
             </Link>
+            <Link href="/projektowanie-wnetrz-warszawa" className="text-sm hover:text-neutral-600">
+              {t.warsaw}
+            </Link>
             <Link
               href="/contact"
               className="text-sm px-4 py-2 bg-black text-white rounded-full hover:bg-neutral-800"
@@ -111,6 +114,13 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t.blog}
+              </Link>
+              <Link 
+                href="/projektowanie-wnetrz-warszawa" 
+                className="text-lg font-medium hover:text-neutral-600 transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {t.warsaw}
               </Link>
               <Link
                 href="/contact"
