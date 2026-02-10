@@ -34,15 +34,17 @@ export default function BlogIndexPage() {
                   {p.image ? (
                     <Link
                       href={`/blog/${p.slug}`}
-                      className="block overflow-hidden rounded-xl border border-neutral-200"
+                      className="block overflow-hidden rounded-xl border border-neutral-200 self-start"
                     >
-                      <Image
-                        src={p.image}
-                        alt={p.title}
-                        width={1200}
-                        height={800}
-                        className="w-full h-auto"
-                      />
+                      <div className="relative w-full aspect-[16/10] bg-neutral-100">
+                        <Image
+                          src={p.image}
+                          alt={p.title}
+                          fill
+                          sizes="(max-width: 768px) 100vw, 220px"
+                          className="object-cover"
+                        />
+                      </div>
                     </Link>
                   ) : null}
 
