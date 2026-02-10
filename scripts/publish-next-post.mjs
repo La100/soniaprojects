@@ -20,11 +20,18 @@ function writeJson(p, obj) {
 }
 
 function todayISO(tz = "Europe/Warsaw") {
-  // Simple ISO date based on local time (host is Europe/Warsaw per runtime)
-  const d = new Date();
-  const yyyy = d.getFullYear();
-  const mm = String(d.getMonth() + 1).padStart(2, "0");
-  const dd = String(d.getDate()).padStart(2, "0");
+  // Works correctly regardless of runner timezone.
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: tz,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(new Date());
+
+  const yyyy = parts.find((p) => p.type === "year")?.value;
+  const mm = parts.find((p) => p.type === "month")?.value;
+  const dd = parts.find((p) => p.type === "day")?.value;
+  if (!yyyy || !mm || !dd) throw new Error("Failed to format date parts");
   return `${yyyy}-${mm}-${dd}`;
 }
 
@@ -42,8 +49,15 @@ if (idx >= plan.length) {
   process.exit(0);
 }
 
+const date = todayISO(state.timezone || "Europe/Warsaw");
+
+// Safety: don't publish twice on the same day.
+if (state.lastPublished?.date === date) {
+  console.log(`Already published today (${date}).`);
+  process.exit(0);
+}
+
 const entry = plan[idx];
-const date = todayISO(state.timezone);
 
 // We don't generate content here; the agent turn does. This script only advances state.
 state.nextIndex = idx + 1;
