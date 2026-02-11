@@ -21,14 +21,22 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: pnpm
 
-      - uses: pnpm/action-setup@v4
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
         with:
           version: 10
+
+      # (Optional) re-enable pnpm cache later once confirmed stable in this repo.
+      # - name: Setup Node cache (pnpm)
+      #   uses: actions/setup-node@v4
+      #   with:
+      #     node-version: 22
+      #     cache: pnpm
 
       - name: Install deps
         run: pnpm install --frozen-lockfile
