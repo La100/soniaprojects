@@ -1,13 +1,13 @@
 {
-  "nextIndex": 1,
+  "nextIndex": 2,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 0,
-    "slug": "ile-kosztuje-projekt-wnetrza-warszawa-2026",
-    "title": "Ile kosztuje projekt wnętrza w Warszawie w 2026? Pakiety, zakres i realne widełki",
-    "date": "2026-02-10",
-    "file": "content/blog/ile-kosztuje-projekt-wnetrza-warszawa-2026.mdx"
+    "index": 1,
+    "slug": "jak-wybrac-architekta-wnetrz-warszawa-pytania",
+    "title": "Jak wybrać architekta wnętrz w Warszawie? 15 pytań na konsultację + czerwone flagi",
+    "date": "2026-02-11",
+    "file": "content/blog/jak-wybrac-architekta-wnetrz-warszawa-pytania.mdx"
   }
 }
