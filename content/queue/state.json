@@ -1,13 +1,13 @@
 {
-  "nextIndex": 2,
+  "nextIndex": 3,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 1,
-    "slug": "jak-wybrac-architekta-wnetrz-warszawa-pytania",
-    "title": "Jak wybrać architekta wnętrz w Warszawie? 15 pytań na konsultację + czerwone flagi",
-    "date": "2026-02-11",
-    "file": "content/blog/jak-wybrac-architekta-wnetrz-warszawa-pytania.mdx"
+    "index": 2,
+    "slug": "remont-mieszkania-warszawa-harmonogram-krok-po-kroku",
+    "title": "Remont mieszkania w Warszawie: harmonogram krok po kroku (żeby nie utknąć na 3 miesiące)",
+    "date": "2026-02-12",
+    "file": "content/blog/remont-mieszkania-warszawa-harmonogram-krok-po-kroku.mdx"
   }
 }
