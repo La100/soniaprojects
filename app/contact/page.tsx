@@ -1,7 +1,22 @@
-'use client';
+import type { Metadata } from "next";
 
-import ContactForm from '../components/ContactForm';
-import { translations } from '../locales/translations';
+import ContactForm from "../components/ContactForm";
+import { translations } from "../locales/translations";
+
+export const metadata: Metadata = {
+  title: "Kontakt",
+  description:
+    "Skontaktuj się z Sonia Projects: zapytaj o projekt wnętrza, wizualizacje 3D lub konsultację. Warszawa i okolice — odpowiedź z kolejnymi krokami współpracy.",
+  alternates: { canonical: "https://soniaprojects.pl/contact" },
+  openGraph: {
+    type: "website",
+    url: "https://soniaprojects.pl/contact",
+    title: "Kontakt | Sonia Projects",
+    description:
+      "Kontakt i współpraca: projektowanie wnętrz, wizualizacje 3D, konsultacje — Sonia Projects.",
+    locale: "pl_PL",
+  },
+};
 
 export default function Contact() {
   const t = translations.contact.pl;

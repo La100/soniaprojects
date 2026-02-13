@@ -1,7 +1,22 @@
-'use client';
+import type { Metadata } from "next";
 
-import ProjectCarousel from '../components/ProjectCarousel';
-import { translations } from '../locales/translations';
+import ProjectCarousel from "../components/ProjectCarousel";
+import { translations } from "../locales/translations";
+
+export const metadata: Metadata = {
+  title: "Realizacje",
+  description:
+    "Realizacje i portfolio Sonia Projects: projekty mieszkań i domów, aranżacje oraz wizualizacje wnętrz. Zobacz wybrane projekty.",
+  alternates: { canonical: "https://soniaprojects.pl/projects" },
+  openGraph: {
+    type: "website",
+    url: "https://soniaprojects.pl/projects",
+    title: "Realizacje | Sonia Projects",
+    description:
+      "Portfolio: projekty wnętrz i wizualizacje 3D — Sonia Projects.",
+    locale: "pl_PL",
+  },
+};
 
 const projectImages = [
   {
