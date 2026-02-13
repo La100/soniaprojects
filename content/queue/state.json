@@ -1,13 +1,13 @@
 {
-  "nextIndex": 3,
+  "nextIndex": 4,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 2,
-    "slug": "remont-mieszkania-warszawa-harmonogram-krok-po-kroku",
-    "title": "Remont mieszkania w Warszawie: harmonogram krok po kroku (żeby nie utknąć na 3 miesiące)",
-    "date": "2026-02-12",
-    "file": "content/blog/remont-mieszkania-warszawa-harmonogram-krok-po-kroku.mdx"
+    "index": 3,
+    "slug": "koszt-remontu-mieszkania-warszawa-budzet",
+    "title": "Koszt remontu mieszkania w Warszawie: z czego wynika budżet i gdzie najczęściej ucieka kasa?",
+    "date": "2026-02-13",
+    "file": "content/blog/koszt-remontu-mieszkania-warszawa-budzet.mdx"
   }
 }
