@@ -21,21 +21,21 @@ export default function About() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="relative h-[800px]">
           <img
-            src="https://utfs.io/f/wooH0SnRkga30uwRNIOWDVvJRrE9Iwm5u28joLZAnHCcPzOF"
+            src="/images/wc-prysznic.jpg"
             alt={t.images.first}
             className="object-cover rounded-lg absolute inset-0 w-full h-full"
           />
         </div>
         <div className="relative h-[800px]">
           <img
-            src="https://utfs.io/f/wooH0SnRkga3kSY2c0dMi6jsZMbDlfQnPc49pFr7CvWEgoam"
+            src="/images/master_02.jpg"
             alt={t.images.second}
             className="object-cover rounded-lg absolute inset-0 w-full h-full"
           />
         </div>
         <div className="relative h-[800px]">
           <img
-            src="https://utfs.io/f/wooH0SnRkga3xfHYXA2RfzjVHtInU037mQMCihecBWZ1KvA8"
+            src="/images/2.jpg"
             alt={t.images.third}
             className="object-cover rounded-lg absolute inset-0 w-full h-full"
           />
