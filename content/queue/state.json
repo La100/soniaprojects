@@ -1,13 +1,13 @@
 {
-  "nextIndex": 5,
+  "nextIndex": 6,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 4,
-    "slug": "kamienica-co-sprawdzic-przed-zakupem",
-    "title": "Mieszkanie w kamienicy: co sprawdzić przed zakupem (lista ryzyk w 30 minut)",
-    "date": "2026-02-14",
-    "file": "content/blog/kamienica-co-sprawdzic-przed-zakupem.mdx"
+    "index": 5,
+    "slug": "odbior-mieszkania-od-dewelopera-checklista",
+    "title": "Odbiór mieszkania od dewelopera: checklista usterek + co warto zmierzyć",
+    "date": "2026-02-15",
+    "file": "content/blog/odbior-mieszkania-od-dewelopera-checklista.mdx"
   }
 }
