@@ -83,11 +83,15 @@ if (idx >= plan.length) {
   process.exit(0);
 }
 
-const date = todayISO(state.timezone || "Europe/Warsaw");
+const args = process.argv.slice(2);
+const force = args.includes("--force");
+const dateArg = args.find((a) => a.startsWith("--date="))?.slice("--date=".length);
 
-// Safety: don't publish twice on the same day.
-if (state.lastPublished?.date === date) {
-  console.log(`Already published today (${date}).`);
+const date = dateArg || todayISO(state.timezone || "Europe/Warsaw");
+
+// Safety: don't publish twice on the same day unless forced.
+if (!force && state.lastPublished?.date === date) {
+  console.log(`Already published today (${date}). Use --force to override.`);
   process.exit(0);
 }
 
