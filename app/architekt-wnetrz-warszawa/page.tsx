@@ -49,9 +49,9 @@ export default function Page() {
         <header>
           <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">Architekt wnętrz — Warszawa</h1>
           <p className="mt-4 text-neutral-700 text-lg leading-relaxed">
-            Jeśli szukasz <strong>architekta wnętrz w Warszawie</strong>, najważniejsze jest to, żeby projekt
-            był nie tylko ładny, ale też dopięty funkcjonalnie: układ, przechowywanie, oświetlenie i decyzje
-            materiałowe, które bronią się po roku użytkowania.
+            Jeśli szukasz <strong>architekta wnętrz w Warszawie</strong>, kluczowe jest połączenie estetyki z funkcją.
+            Projekt powinien porządkować codzienność: układ, ergonomię, przechowywanie, oświetlenie oraz decyzje materiałowe,
+            które pozostają trafne również po czasie użytkowania.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-3">
@@ -83,7 +83,7 @@ export default function Page() {
         </section>
 
         <section className="mt-14">
-          <h2 className="text-2xl font-semibold">Dla kogo jest projekt wnętrza?</h2>
+          <h2 className="text-2xl font-semibold">Kiedy warto skorzystać z usługi architekta wnętrz</h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="rounded-2xl border border-neutral-200 p-6">
               <h3 className="font-medium">Mieszkanie w Warszawie (rynek pierwotny)</h3>
@@ -115,14 +115,14 @@ export default function Page() {
         </section>
 
         <section className="mt-14">
-          <h2 className="text-2xl font-semibold">Co dostajesz (w praktyce)</h2>
+          <h2 className="text-2xl font-semibold">Zakres i efekty współpracy</h2>
           <div className="mt-4 rounded-2xl border border-neutral-200 p-6">
             <ul className="list-disc pl-5 text-neutral-700 space-y-2">
               <li>kierunek stylistyczny i spójna paleta,</li>
               <li>plan przechowywania (żeby nie kończyć na „dostawianiu komód”),</li>
               <li>plan oświetlenia warstwowego,</li>
               <li>rekomendacje materiałów i detali (pod budżet),</li>
-              <li>krótką listę ryzyk i „czerwonych flag” przed remontem.</li>
+              <li>lista ryzyk i rekomendacji przed remontem (żeby ograniczyć kosztowne poprawki).</li>
             </ul>
           </div>
         </section>
@@ -165,9 +165,9 @@ export default function Page() {
         </section>
 
         <section className="mt-16 rounded-2xl bg-neutral-50 border border-neutral-200 p-8">
-          <h2 className="text-2xl font-semibold">Zacznijmy od krótkiej rozmowy</h2>
+          <h2 className="text-2xl font-semibold">Umów konsultację</h2>
           <p className="mt-3 text-neutral-700">
-            Opisz metraż, układ i priorytety (np. kuchnia, przechowywanie, budżet) — wrócę z propozycją kolejnych kroków.
+            Opisz metraż, układ i priorytety (np. kuchnia, przechowywanie, budżet). Wrócę z propozycją kolejnych kroków i sugerowanym zakresem.
           </p>
           <div className="mt-6">
             <Link

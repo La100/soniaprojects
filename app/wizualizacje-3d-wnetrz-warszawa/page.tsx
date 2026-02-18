@@ -21,8 +21,8 @@ export default function Page() {
         <header>
           <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">Wizualizacje 3D wnętrz — Warszawa</h1>
           <p className="mt-4 text-neutral-700 text-lg leading-relaxed">
-            Wizualizacje 3D nie są celem samym w sobie — mają pomóc podjąć decyzje: układ, materiały, kolory i światło.
-            Zrobione dobrze, często oszczędzają czas i pieniądze na poprawkach.
+            Wizualizacje 3D nie są celem samym w sobie — mają ułatwić podejmowanie decyzji dotyczących układu,
+            materiałów, kolorystyki oraz oświetlenia. Dobrze przygotowane 3D ogranicza ryzyko kosztownych zmian na etapie realizacji.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3">
             <Link
@@ -68,7 +68,7 @@ export default function Page() {
         </section>
 
         <section className="mt-14">
-          <h2 className="text-2xl font-semibold">Najczęstsze problemy, które 3D rozwiązuje</h2>
+          <h2 className="text-2xl font-semibold">Co najczęściej weryfikujemy dzięki 3D</h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="rounded-2xl border border-neutral-200 p-6">
               <h3 className="font-medium">Kolory „na żywo”</h3>
@@ -122,8 +122,8 @@ export default function Page() {
         </section>
 
         <section className="mt-16 rounded-2xl bg-neutral-50 border border-neutral-200 p-8">
-          <h2 className="text-2xl font-semibold">Chcesz sprawdzić, czy 3D ma sens w Twoim przypadku?</h2>
-          <p className="mt-3 text-neutral-700">Napisz, jaki metraż i na jakim etapie jesteś — podpowiem najlepszy zakres.</p>
+          <h2 className="text-2xl font-semibold">Sprawdź, czy 3D ma sens w Twoim przypadku</h2>
+          <p className="mt-3 text-neutral-700">Napisz, jaki jest metraż i na jakim etapie jesteś — zaproponuję najlepszy zakres prac.</p>
           <div className="mt-6">
             <Link
               href="/contact"

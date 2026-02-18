@@ -21,8 +21,9 @@ export default function Page() {
         <header>
           <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">Projekt kuchni — Warszawa</h1>
           <p className="mt-4 text-neutral-700 text-lg leading-relaxed">
-            Kuchnia to najbardziej „techniczne” pomieszczenie w mieszkaniu. Dobry projekt to ergonomia, światło, sensowne
-            gniazdka i przechowywanie — dopiero potem fronty.
+            Kuchnia jest jednym z najbardziej wymagających pomieszczeń pod względem funkcji i instalacji. Dobry projekt
+            zaczyna się od ergonomii pracy, poprawnie rozplanowanych przyłączy, oświetlenia oraz pojemnego, przemyślanego
+            przechowywania — a dopiero potem od doboru frontów i detali estetycznych.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3">
             <Link
@@ -56,7 +57,7 @@ export default function Page() {
         </section>
 
         <section className="mt-14">
-          <h2 className="text-2xl font-semibold">Co ogarniamy w projekcie kuchni</h2>
+          <h2 className="text-2xl font-semibold">Zakres projektu kuchni</h2>
           <div className="mt-4 rounded-2xl border border-neutral-200 p-6">
             <ul className="list-disc pl-5 text-neutral-700 space-y-2">
               <li>układ i ergonomia (trójkąt roboczy + realne odległości),</li>
@@ -69,15 +70,15 @@ export default function Page() {
         </section>
 
         <section className="mt-14">
-          <h2 className="text-2xl font-semibold">Najczęstsze błędy (które kosztują)</h2>
+          <h2 className="text-2xl font-semibold">Najczęstsze błędy, które generują koszty</h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="rounded-2xl border border-neutral-200 p-6">
               <h3 className="font-medium">Za mało blatu roboczego</h3>
-              <p className="mt-2 text-neutral-700">Zamiast ozdobnych przerw i wąskich odcinków — planujemy jeden długi „odcinek pracy”.</p>
+              <p className="mt-2 text-neutral-700">W praktyce liczy się ciągły, wygodny odcinek blatu. Projektujemy układ tak, aby praca była płynna i ergonomiczna.</p>
             </div>
             <div className="rounded-2xl border border-neutral-200 p-6">
               <h3 className="font-medium">Gniazdka „po fakcie”</h3>
-              <p className="mt-2 text-neutral-700">Przedłużacze i brak obwodów to klasyk. Lepiej dopiąć to przed tynkami.</p>
+              <p className="mt-2 text-neutral-700">Brak odpowiedniej liczby gniazd i obwodów kończy się prowizorycznymi rozwiązaniami. Ustalamy to na etapie projektu, zanim ruszą prace.</p>
             </div>
           </div>
         </section>
@@ -119,9 +120,9 @@ export default function Page() {
         </section>
 
         <section className="mt-16 rounded-2xl bg-neutral-50 border border-neutral-200 p-8">
-          <h2 className="text-2xl font-semibold">Chcesz, żebym dobrała układ pod Twój metraż?</h2>
+          <h2 className="text-2xl font-semibold">Chcesz dopasować układ kuchni do Twojego mieszkania?</h2>
           <p className="mt-3 text-neutral-700">
-            Podeślij rzut i napisz, jak gotujesz (często/okazjonalnie, sprzęty, stół/wyspa) — wrócę z propozycją kierunku.
+            Podeślij rzut i krótki opis potrzeb (jak często gotujesz, jaki sprzęt, czy planujesz wyspę/stół). Wrócę z propozycją kierunku i zakresem prac.
           </p>
           <div className="mt-6">
             <Link
