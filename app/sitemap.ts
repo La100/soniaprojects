@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { getAllBlogPostsMeta } from "@/lib/blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://soniaprojects.pl";
+  const baseUrl = "https://www.soniaprojects.pl";
   const posts = getAllBlogPostsMeta();
 
   const staticRoutes: MetadataRoute.Sitemap = [

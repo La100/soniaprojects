@@ -49,7 +49,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "ProfessionalService",
               name: "Sonia Projects",
-              url: "https://soniaprojects.pl",
+              url: "https://www.soniaprojects.pl",
               areaServed: "Warszawa",
               email: "soniaarchitektura@gmail.com",
               sameAs: ["https://www.instagram.com/sonia_projects/"],

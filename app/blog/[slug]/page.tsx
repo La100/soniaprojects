@@ -14,12 +14,12 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   try {
     const { meta } = getBlogPostRawBySlug(params.slug);
-    const url = `https://soniaprojects.pl/blog/${meta.slug}`;
+    const url = `https://www.soniaprojects.pl/blog/${meta.slug}`;
 
     const images = meta.images?.length
-      ? meta.images.map((src) => ({ url: `https://soniaprojects.pl${src}` }))
+      ? meta.images.map((src) => ({ url: `https://www.soniaprojects.pl${src}` }))
       : meta.image
-        ? [{ url: `https://soniaprojects.pl${meta.image}` }]
+        ? [{ url: `https://www.soniaprojects.pl${meta.image}` }]
         : undefined;
 
     return {
@@ -113,14 +113,14 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
                 description: meta.description,
                 mainEntityOfPage: {
                   "@type": "WebPage",
-                  "@id": `https://soniaprojects.pl/blog/${meta.slug}`,
+                  "@id": `https://www.soniaprojects.pl/blog/${meta.slug}`,
                 },
                 author: { "@type": "Organization", name: "Sonia Projects" },
                 publisher: { "@type": "Organization", name: "Sonia Projects" },
                 image: meta.images?.length
-                  ? meta.images.map((src) => `https://soniaprojects.pl${src}`)
+                  ? meta.images.map((src) => `https://www.soniaprojects.pl${src}`)
                   : meta.image
-                    ? [`https://soniaprojects.pl${meta.image}`]
+                    ? [`https://www.soniaprojects.pl${meta.image}`]
                     : undefined,
               }),
             }}

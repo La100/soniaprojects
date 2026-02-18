@@ -4,10 +4,10 @@ export const metadata = {
   title: "Wizualizacje 3D wnętrz Warszawa | Sonia Projects",
   description:
     "Wizualizacje 3D wnętrz w Warszawie: kiedy mają sens, co pokazują i jak pomagają uniknąć kosztownych błędów. Sprawdź proces i umów konsultację.",
-  alternates: { canonical: "https://soniaprojects.pl/wizualizacje-3d-wnetrz-warszawa" },
+  alternates: { canonical: "https://www.soniaprojects.pl/wizualizacje-3d-wnetrz-warszawa" },
   openGraph: {
     type: "website",
-    url: "https://soniaprojects.pl/wizualizacje-3d-wnetrz-warszawa",
+    url: "https://www.soniaprojects.pl/wizualizacje-3d-wnetrz-warszawa",
     title: "Wizualizacje 3D wnętrz Warszawa | Sonia Projects",
     description: "Wizualizacje 3D, które pomagają podejmować decyzje przed remontem. Warszawa i okolice.",
     locale: "pl_PL",

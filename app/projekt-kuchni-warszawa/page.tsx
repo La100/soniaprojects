@@ -4,10 +4,10 @@ export const metadata = {
   title: "Projekt kuchni Warszawa | Sonia Projects",
   description:
     "Projekt kuchni w Warszawie: układ L/U/wyspa, ergonomia, gniazdka i oświetlenie. Zobacz jak zaplanować kuchnię, żeby działała w praktyce.",
-  alternates: { canonical: "https://soniaprojects.pl/projekt-kuchni-warszawa" },
+  alternates: { canonical: "https://www.soniaprojects.pl/projekt-kuchni-warszawa" },
   openGraph: {
     type: "website",
-    url: "https://soniaprojects.pl/projekt-kuchni-warszawa",
+    url: "https://www.soniaprojects.pl/projekt-kuchni-warszawa",
     title: "Projekt kuchni Warszawa | Sonia Projects",
     description: "Układ, ergonomia, przechowywanie i światło — projekt kuchni dopasowany do metrażu.",
     locale: "pl_PL",

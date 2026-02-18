@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   title: "Realizacje",
   description:
     "Realizacje i portfolio Sonia Projects: projekty mieszkań i domów, aranżacje oraz wizualizacje wnętrz. Zobacz wybrane projekty.",
-  alternates: { canonical: "https://soniaprojects.pl/projects" },
+  alternates: { canonical: "https://www.soniaprojects.pl/projects" },
   openGraph: {
     type: "website",
-    url: "https://soniaprojects.pl/projects",
+    url: "https://www.soniaprojects.pl/projects",
     title: "Realizacje | Sonia Projects",
     description:
       "Portfolio: projekty wnętrz i wizualizacje 3D — Sonia Projects.",

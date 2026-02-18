@@ -4,10 +4,10 @@ export const metadata: Metadata = {
   title: "Galeria",
   description:
     "Galeria realizacji i inspiracji Sonia Projects — zdjęcia wnętrz i wizualizacje. Zobacz przykładowe projekty i detale aranżacji.",
-  alternates: { canonical: "https://soniaprojects.pl/gallery" },
+  alternates: { canonical: "https://www.soniaprojects.pl/gallery" },
   openGraph: {
     type: "website",
-    url: "https://soniaprojects.pl/gallery",
+    url: "https://www.soniaprojects.pl/gallery",
     title: "Galeria | Sonia Projects",
     description:
       "Galeria: zdjęcia wnętrz i wizualizacje 3D — Sonia Projects.",

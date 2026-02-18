@@ -4,10 +4,10 @@ export const metadata = {
   title: "Architekt wnętrz Warszawa | Sonia Projects",
   description:
     "Architekt wnętrz w Warszawie: projekt mieszkania lub domu, układ funkcjonalny, materiały, oświetlenie i wsparcie w realizacji. Sprawdź jak wygląda współpraca.",
-  alternates: { canonical: "https://soniaprojects.pl/architekt-wnetrz-warszawa" },
+  alternates: { canonical: "https://www.soniaprojects.pl/architekt-wnetrz-warszawa" },
   openGraph: {
     type: "website",
-    url: "https://soniaprojects.pl/architekt-wnetrz-warszawa",
+    url: "https://www.soniaprojects.pl/architekt-wnetrz-warszawa",
     title: "Architekt wnętrz Warszawa | Sonia Projects",
     description:
       "Projekt wnętrz w Warszawie: funkcja, estetyka i wsparcie na etapie realizacji. Umów konsultację.",
@@ -20,7 +20,7 @@ function JsonLd() {
     "@context": "https://schema.org",
     "@type": "WebPage",
     name: "Architekt wnętrz Warszawa",
-    url: "https://soniaprojects.pl/architekt-wnetrz-warszawa",
+    url: "https://www.soniaprojects.pl/architekt-wnetrz-warszawa",
     about: [
       {
         "@type": "Service",

@@ -10,7 +10,7 @@ function escapeXml(str: string) {
 }
 
 export async function GET() {
-  const baseUrl = "https://soniaprojects.pl";
+  const baseUrl = "https://www.soniaprojects.pl";
   const posts = getAllBlogPostsMeta();
 
   const items = posts

@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   title: "Kontakt",
   description:
     "Skontaktuj się z Sonia Projects: zapytaj o projekt wnętrza, wizualizacje 3D lub konsultację. Warszawa i okolice — odpowiedź z kolejnymi krokami współpracy.",
-  alternates: { canonical: "https://soniaprojects.pl/contact" },
+  alternates: { canonical: "https://www.soniaprojects.pl/contact" },
   openGraph: {
     type: "website",
-    url: "https://soniaprojects.pl/contact",
+    url: "https://www.soniaprojects.pl/contact",
     title: "Kontakt | Sonia Projects",
     description:
       "Kontakt i współpraca: projektowanie wnętrz, wizualizacje 3D, konsultacje — Sonia Projects.",

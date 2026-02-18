@@ -5,10 +5,10 @@ import { getAllBlogPostsMeta } from "@/lib/blog";
 export const metadata = {
   title: "Blog",
   description: "Wpisy o architekturze wnętrz, inspiracjach i projektowaniu (PL).",
-  alternates: { canonical: "https://soniaprojects.pl/blog" },
+  alternates: { canonical: "https://www.soniaprojects.pl/blog" },
   openGraph: {
     type: "website",
-    url: "https://soniaprojects.pl/blog",
+    url: "https://www.soniaprojects.pl/blog",
     title: "Blog | Sonia Projects",
     description: "Wpisy o architekturze wnętrz, inspiracjach i projektowaniu (PL).",
     locale: "pl_PL",

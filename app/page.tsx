@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   title: "Strona główna",
   description:
     "Sonia Projects — projektowanie wnętrz i wizualizacje 3D w Warszawie. Projekty mieszkań i domów, koncepcje, dobór materiałów i wsparcie na etapie realizacji.",
-  alternates: { canonical: "https://soniaprojects.pl/" },
+  alternates: { canonical: "https://www.soniaprojects.pl/" },
   openGraph: {
     type: "website",
-    url: "https://soniaprojects.pl/",
+    url: "https://www.soniaprojects.pl/",
     title: "Sonia Projects | Projektowanie wnętrz",
     description:
       "Projektowanie wnętrz i wizualizacje 3D w Warszawie. Projekty mieszkań i domów, koncepcje, materiały, wsparcie w realizacji.",

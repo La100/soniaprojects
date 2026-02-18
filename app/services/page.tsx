@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   title: "Usługi",
   description:
     "Zakres usług Sonia Projects: projektowanie wnętrz, wizualizacje 3D i konsultacje. Poznaj proces współpracy i wybierz pakiet dopasowany do potrzeb.",
-  alternates: { canonical: "https://soniaprojects.pl/services" },
+  alternates: { canonical: "https://www.soniaprojects.pl/services" },
   openGraph: {
     type: "website",
-    url: "https://soniaprojects.pl/services",
+    url: "https://www.soniaprojects.pl/services",
     title: "Usługi | Sonia Projects",
     description:
       "Projektowanie wnętrz, wizualizacje 3D i konsultacje — usługi Sonia Projects.",

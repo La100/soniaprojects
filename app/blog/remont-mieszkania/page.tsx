@@ -5,10 +5,10 @@ export const metadata = {
   title: "Remont mieszkania — poradniki i checklisty | Sonia Projects",
   description:
     "Remont mieszkania bez chaosu: budżet, harmonogram, ekipy, kolejność prac i najczęstsze błędy. Zbiór praktycznych poradników (PL).",
-  alternates: { canonical: "https://soniaprojects.pl/blog/remont-mieszkania" },
+  alternates: { canonical: "https://www.soniaprojects.pl/blog/remont-mieszkania" },
   openGraph: {
     type: "website",
-    url: "https://soniaprojects.pl/blog/remont-mieszkania",
+    url: "https://www.soniaprojects.pl/blog/remont-mieszkania",
     title: "Remont mieszkania — poradniki | Sonia Projects",
     description:
       "Budżet, harmonogram i decyzje remontowe — zebrane w jednym miejscu.",
