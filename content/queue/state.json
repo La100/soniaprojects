@@ -1,13 +1,13 @@
 {
-  "nextIndex": 10,
+  "nextIndex": 11,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 9,
-    "slug": "home-office-w-mieszkaniu-ergonomia",
-    "title": "Home office w mieszkaniu: ergonomia, akustyka i oświetlenie (bez bólu pleców)",
+    "index": 10,
+    "slug": "modern-classic-bez-kiczu",
+    "title": "Modern classic bez kiczu: zasady, materiały i kolory, które robią efekt premium",
     "date": "2026-02-18",
-    "file": "content/blog/home-office-w-mieszkaniu-ergonomia.mdx"
+    "file": "content/blog/modern-classic-bez-kiczu.mdx"
   }
 }
