@@ -20,7 +20,7 @@ export default function BlogIndexPage() {
 
   return (
     <main className="py-12">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">Blog</h1>
         <p className="mt-3 text-neutral-600">Artykuły i notatki.</p>
 
@@ -49,8 +49,8 @@ export default function BlogIndexPage() {
                   ) : null}
 
                   <div>
-                    <div className="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2">
-                      <h2 className="text-xl md:text-2xl font-medium">
+                    <div className="flex flex-col gap-1">
+                      <h2 className="text-xl md:text-2xl font-medium leading-snug">
                         <Link className="hover:underline" href={`/blog/${p.slug}`}>
                           {p.title}
                         </Link>
