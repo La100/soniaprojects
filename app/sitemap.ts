@@ -12,6 +12,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/gallery`, lastModified: new Date() },
     { url: `${baseUrl}/contact`, lastModified: new Date() },
     { url: `${baseUrl}/blog`, lastModified: new Date() },
+
+    // Money/lead pages
+    { url: `${baseUrl}/architekt-wnetrz-warszawa`, lastModified: new Date() },
+    { url: `${baseUrl}/wizualizacje-3d-wnetrz-warszawa`, lastModified: new Date() },
+    { url: `${baseUrl}/projekt-kuchni-warszawa`, lastModified: new Date() },
+
+    // Hubs
+    { url: `${baseUrl}/blog/remont-mieszkania`, lastModified: new Date() },
   ];
 
   const blogRoutes: MetadataRoute.Sitemap = posts.map((p) => ({

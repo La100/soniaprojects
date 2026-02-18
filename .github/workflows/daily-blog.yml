@@ -2,9 +2,11 @@ name: Daily blog publish
 
 on:
   schedule:
-    # 08:00 Europe/Warsaw ~= 07:00 UTC in winter, 06:00 UTC in summer.
-    # Keep UTC here; adjust later if needed.
+    # Fast ramp-up: publish 3 posts/day for the next couple weeks.
+    # 08:00/12:00/16:00 Europe/Warsaw ~= 07:00/11:00/15:00 UTC in winter.
     - cron: "0 7 * * *"
+    - cron: "0 11 * * *"
+    - cron: "0 15 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -38,7 +40,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Publish next post (if any)
-        run: node scripts/publish-next-post.mjs
+        run: node scripts/publish-next-post.mjs --force
 
       - name: Commit & push (if changed)
         run: |
