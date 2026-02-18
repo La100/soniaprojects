@@ -56,6 +56,51 @@ export default function Page() {
         </section>
 
         <section className="mt-14">
+          <h2 className="text-2xl font-semibold">Co ogarniamy w projekcie kuchni</h2>
+          <div className="mt-4 rounded-2xl border border-neutral-200 p-6">
+            <ul className="list-disc pl-5 text-neutral-700 space-y-2">
+              <li>układ i ergonomia (trójkąt roboczy + realne odległości),</li>
+              <li>strefy: zapasy, zmywanie, gotowanie, serwowanie,</li>
+              <li>przechowywanie i wysokości zabudów,</li>
+              <li>gniazdka, obwody i miejsca pod AGD,</li>
+              <li>oświetlenie blatu i sceny (sprzątanie / wieczór).</li>
+            </ul>
+          </div>
+        </section>
+
+        <section className="mt-14">
+          <h2 className="text-2xl font-semibold">Najczęstsze błędy (które kosztują)</h2>
+          <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="rounded-2xl border border-neutral-200 p-6">
+              <h3 className="font-medium">Za mało blatu roboczego</h3>
+              <p className="mt-2 text-neutral-700">Zamiast ozdobnych przerw i wąskich odcinków — planujemy jeden długi „odcinek pracy”.</p>
+            </div>
+            <div className="rounded-2xl border border-neutral-200 p-6">
+              <h3 className="font-medium">Gniazdka „po fakcie”</h3>
+              <p className="mt-2 text-neutral-700">Przedłużacze i brak obwodów to klasyk. Lepiej dopiąć to przed tynkami.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="mt-14">
+          <h2 className="text-2xl font-semibold">FAQ</h2>
+          <div className="mt-4 space-y-4">
+            <div>
+              <h3 className="font-medium">Czy da się zaprojektować kuchnię bez stolarza „na wymiar”?</h3>
+              <p className="mt-1 text-neutral-700">Tak, ale trzeba pilnować ergonomii i przechowywania. W wielu układach zabudowa na wymiar daje najlepszy efekt.</p>
+            </div>
+            <div>
+              <h3 className="font-medium">Wyspa czy półwysep?</h3>
+              <p className="mt-1 text-neutral-700">Zależy od przejść i komunikacji. Często półwysep wygrywa w mieszkaniach, bo daje funkcję bez zabierania przestrzeni.</p>
+            </div>
+            <div>
+              <h3 className="font-medium">Czy okap w otwartej kuchni wystarczy?</h3>
+              <p className="mt-1 text-neutral-700">Pomaga, ale nie rozwiązuje wszystkiego. Liczy się też wentylacja i sposób gotowania.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="mt-14">
           <h2 className="text-2xl font-semibold">Przeczytaj też</h2>
           <div className="mt-4 grid gap-3">
             <Link className="hover:underline" href="/blog/projekt-kuchni-uklady-l-u-wyspa">
@@ -64,8 +109,26 @@ export default function Page() {
             <Link className="hover:underline" href="/blog/jak-ustawic-gniazdka-w-kuchni">
               Gniazdka w kuchni: ile, gdzie i na jakich obwodach
             </Link>
+            <Link className="hover:underline" href="/blog/kuchnia-otwarta-czy-zamknieta">
+              Kuchnia otwarta czy zamknięta? Plusy/minusy i układ
+            </Link>
             <Link className="hover:underline" href="/blog/plan-oswietlenia-w-mieszkaniu">
               Oświetlenie w mieszkaniu: plan warstwowy + błędy
+            </Link>
+          </div>
+        </section>
+
+        <section className="mt-16 rounded-2xl bg-neutral-50 border border-neutral-200 p-8">
+          <h2 className="text-2xl font-semibold">Chcesz, żebym dobrała układ pod Twój metraż?</h2>
+          <p className="mt-3 text-neutral-700">
+            Podeślij rzut i napisz, jak gotujesz (często/okazjonalnie, sprzęty, stół/wyspa) — wrócę z propozycją kierunku.
+          </p>
+          <div className="mt-6">
+            <Link
+              href="/contact"
+              className="inline-flex justify-center px-6 py-3 text-base font-medium text-white bg-black rounded-full hover:bg-neutral-800"
+            >
+              Napisz do mnie
             </Link>
           </div>
         </section>
