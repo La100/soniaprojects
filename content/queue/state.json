@@ -1,13 +1,13 @@
 {
-  "nextIndex": 8,
+  "nextIndex": 9,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 7,
-    "slug": "kuchnia-otwarta-czy-zamknieta",
-    "title": "Kuchnia otwarta czy zamknięta? Plusy/minusy, zapachy, hałas i układ funkcjonalny",
-    "date": "2026-02-17",
-    "file": "content/blog/kuchnia-otwarta-czy-zamknieta.mdx"
+    "index": 8,
+    "slug": "lazienka-wentylacja-wilgosci-materialy",
+    "title": "Łazienka bez problemów: wentylacja, wilgoć i materiały, które naprawdę się sprawdzają",
+    "date": "2026-02-18",
+    "file": "content/blog/lazienka-wentylacja-wilgosci-materialy.mdx"
   }
 }
