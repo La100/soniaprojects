@@ -30,7 +30,13 @@ export default function BlogIndexPage() {
           ) : (
             posts.map((p) => (
               <article key={p.slug} className="border-b border-neutral-200 pb-6">
-                <div className="grid grid-cols-1 md:grid-cols-[220px_1fr] gap-6">
+                <div
+                  className={
+                    p.image
+                      ? "grid grid-cols-1 md:grid-cols-[220px_1fr] gap-6"
+                      : "grid grid-cols-1 gap-6"
+                  }
+                >
                   {p.image ? (
                     <Link
                       href={`/blog/${p.slug}`}
