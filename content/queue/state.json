@@ -1,13 +1,13 @@
 {
-  "nextIndex": 9,
+  "nextIndex": 10,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 8,
-    "slug": "lazienka-wentylacja-wilgosci-materialy",
-    "title": "Łazienka bez problemów: wentylacja, wilgoć i materiały, które naprawdę się sprawdzają",
+    "index": 9,
+    "slug": "home-office-w-mieszkaniu-ergonomia",
+    "title": "Home office w mieszkaniu: ergonomia, akustyka i oświetlenie (bez bólu pleców)",
     "date": "2026-02-18",
-    "file": "content/blog/lazienka-wentylacja-wilgosci-materialy.mdx"
+    "file": "content/blog/home-office-w-mieszkaniu-ergonomia.mdx"
   }
 }
