@@ -1,0 +1,59 @@
+name: Daily blog publish
+
+on:
+  schedule:
+    # 08:00 Europe/Warsaw ~= 07:00 UTC in winter, 06:00 UTC in summer.
+    # Keep UTC here; adjust later if needed.
+    - cron: "0 7 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-blog
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Install deps
+        run: pnpm install --frozen-lockfile
+
+      - name: Publish next post (if any)
+        run: node scripts/publish-next-post.mjs
+
+      - name: Commit & push (if changed)
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Usually changes are: content/blog/<slug>.mdx + content/queue/state.json
+          git add content/blog content/queue/state.json
+
+          # Read lastPublished slug from state.json for commit message
+          SLUG=$(node -e "const s=require('./content/queue/state.json'); console.log(s?.lastPublished?.slug||'post')")
+          git commit -m "Daily blog: ${SLUG}"
+          git push

@@ -2,187 +2,425 @@
   {
     "slug": "ile-kosztuje-projekt-wnetrza-warszawa-2026",
     "title": "Ile kosztuje projekt wnętrza w Warszawie w 2026? Pakiety, zakres i realne widełki",
-    "primaryKeywords": ["projekt wnętrza Warszawa cena", "architekt wnętrz Warszawa koszt", "projektant wnętrz Warszawa cennik"],
+    "primaryKeywords": [
+      "projekt wnętrza Warszawa cena",
+      "architekt wnętrz Warszawa koszt",
+      "projektant wnętrz Warszawa cennik"
+    ],
     "intent": "lead"
   },
   {
     "slug": "jak-wybrac-architekta-wnetrz-warszawa-pytania",
     "title": "Jak wybrać architekta wnętrz w Warszawie? 15 pytań na konsultację + czerwone flagi",
-    "primaryKeywords": ["architekt wnętrz Warszawa", "projektant wnętrz Warszawa", "jak wybrać projektanta wnętrz"],
+    "primaryKeywords": [
+      "architekt wnętrz Warszawa",
+      "projektant wnętrz Warszawa",
+      "jak wybrać projektanta wnętrz"
+    ],
     "intent": "lead"
   },
   {
     "slug": "remont-mieszkania-warszawa-harmonogram-krok-po-kroku",
     "title": "Remont mieszkania w Warszawie: harmonogram krok po kroku (żeby nie utknąć na 3 miesiące)",
-    "primaryKeywords": ["remont mieszkania Warszawa", "harmonogram remontu", "plan remontu"],
+    "primaryKeywords": [
+      "remont mieszkania Warszawa",
+      "harmonogram remontu",
+      "plan remontu"
+    ],
     "intent": "lead"
   },
   {
     "slug": "koszt-remontu-mieszkania-warszawa-budzet",
     "title": "Koszt remontu mieszkania w Warszawie: z czego wynika budżet i gdzie najczęściej ucieka kasa?",
-    "primaryKeywords": ["koszt remontu Warszawa", "budżet remontu mieszkania", "ile kosztuje remont"],
+    "primaryKeywords": [
+      "koszt remontu Warszawa",
+      "budżet remontu mieszkania",
+      "ile kosztuje remont"
+    ],
     "intent": "lead"
   },
   {
     "slug": "kamienica-co-sprawdzic-przed-zakupem",
     "title": "Mieszkanie w kamienicy: co sprawdzić przed zakupem (lista ryzyk w 30 minut)",
-    "primaryKeywords": ["mieszkanie w kamienicy", "remont kamienicy", "warszawskie kamienice"],
+    "primaryKeywords": [
+      "mieszkanie w kamienicy",
+      "remont kamienicy",
+      "warszawskie kamienice"
+    ],
     "intent": "lead"
   },
   {
     "slug": "odbior-mieszkania-od-dewelopera-checklista",
     "title": "Odbiór mieszkania od dewelopera: checklista usterek + co warto zmierzyć",
-    "primaryKeywords": ["odbiór mieszkania", "checklista odbioru mieszkania", "usterki deweloperskie"],
+    "primaryKeywords": [
+      "odbiór mieszkania",
+      "checklista odbioru mieszkania",
+      "usterki deweloperskie"
+    ],
     "intent": "lead"
   },
   {
     "slug": "male-mieszkanie-40m-uklad-przechowywanie",
     "title": "Małe mieszkanie (35–50 m²): 12 trików na układ, przechowywanie i optyczne powiększenie",
-    "primaryKeywords": ["małe mieszkanie aranżacja", "układ mieszkania 40 m", "przechowywanie w mieszkaniu"],
+    "primaryKeywords": [
+      "małe mieszkanie aranżacja",
+      "układ mieszkania 40 m",
+      "przechowywanie w mieszkaniu"
+    ],
     "intent": "lead"
   },
   {
     "slug": "kuchnia-otwarta-czy-zamknieta",
     "title": "Kuchnia otwarta czy zamknięta? Plusy/minusy, zapachy, hałas i układ funkcjonalny",
-    "primaryKeywords": ["kuchnia otwarta", "kuchnia zamknięta", "układ kuchni"],
+    "primaryKeywords": [
+      "kuchnia otwarta",
+      "kuchnia zamknięta",
+      "układ kuchni"
+    ],
     "intent": "lead"
   },
   {
     "slug": "lazienka-wentylacja-wilgosci-materialy",
     "title": "Łazienka bez problemów: wentylacja, wilgoć i materiały, które naprawdę się sprawdzają",
-    "primaryKeywords": ["wentylacja w łazience", "wilgoć w łazience", "materiały do łazienki"],
+    "primaryKeywords": [
+      "wentylacja w łazience",
+      "wilgoć w łazience",
+      "materiały do łazienki"
+    ],
     "intent": "lead"
   },
   {
     "slug": "home-office-w-mieszkaniu-ergonomia",
     "title": "Home office w mieszkaniu: ergonomia, akustyka i oświetlenie (bez bólu pleców)",
-    "primaryKeywords": ["home office", "ergonomia biurka", "oświetlenie do pracy"],
+    "primaryKeywords": [
+      "home office",
+      "ergonomia biurka",
+      "oświetlenie do pracy"
+    ],
     "intent": "lead"
   },
   {
     "slug": "modern-classic-bez-kiczu",
     "title": "Modern classic bez kiczu: zasady, materiały i kolory, które robią efekt premium",
-    "primaryKeywords": ["modern classic", "styl modern classic", "wnętrze premium"],
+    "primaryKeywords": [
+      "modern classic",
+      "styl modern classic",
+      "wnętrze premium"
+    ],
     "intent": "inspiration"
   },
   {
     "slug": "soft-loft-w-bloku",
     "title": "Soft loft: jak zrobić loft w bloku (ciepło, nie surowo)",
-    "primaryKeywords": ["soft loft", "loft w mieszkaniu", "styl loft"],
+    "primaryKeywords": [
+      "soft loft",
+      "loft w mieszkaniu",
+      "styl loft"
+    ],
     "intent": "inspiration"
   },
   {
     "slug": "quiet-luxury-wnetrza",
     "title": "Quiet luxury we wnętrzach: jak wygląda „premium” w praktyce (a nie w teorii)",
-    "primaryKeywords": ["quiet luxury", "wnętrza premium", "luksusowe wnętrza"],
+    "primaryKeywords": [
+      "quiet luxury",
+      "wnętrza premium",
+      "luksusowe wnętrza"
+    ],
     "intent": "inspiration"
   },
   {
     "slug": "jak-dobrac-kolory-w-mieszkaniu",
     "title": "Jak dobrać kolory w mieszkaniu? Prosta metoda palety (bez frustracji po roku)",
-    "primaryKeywords": ["dobór kolorów", "paleta kolorów wnętrze", "kolory ścian"],
+    "primaryKeywords": [
+      "dobór kolorów",
+      "paleta kolorów wnętrze",
+      "kolory ścian"
+    ],
     "intent": "inspiration"
   },
   {
     "slug": "plan-oswietlenia-w-mieszkaniu",
     "title": "Oświetlenie w mieszkaniu: plan warstwowy + najczęstsze błędy (i jak ich uniknąć)",
-    "primaryKeywords": ["plan oświetlenia", "oświetlenie warstwowe", "lampy do salonu"],
+    "primaryKeywords": [
+      "plan oświetlenia",
+      "oświetlenie warstwowe",
+      "lampy do salonu"
+    ],
     "intent": "inspiration"
   },
   {
     "slug": "akustyka-w-mieszkaniu-co-dziala",
     "title": "Akustyka w mieszkaniu: co naprawdę działa (i co jest mitem)",
-    "primaryKeywords": ["akustyka w mieszkaniu", "wyciszenie mieszkania", "echo w salonie"],
+    "primaryKeywords": [
+      "akustyka w mieszkaniu",
+      "wyciszenie mieszkania",
+      "echo w salonie"
+    ],
     "intent": "expert"
   },
   {
     "slug": "jak-czytac-rzut-mieszkania",
     "title": "Jak czytać rzut mieszkania? 10 rzeczy, które warto wyłapać przed projektem",
-    "primaryKeywords": ["rzut mieszkania", "układ funkcjonalny", "plan mieszkania"],
+    "primaryKeywords": [
+      "rzut mieszkania",
+      "układ funkcjonalny",
+      "plan mieszkania"
+    ],
     "intent": "expert"
   },
   {
     "slug": "zabudowa-stolarska-na-wymiar",
     "title": "Zabudowa na wymiar: kiedy warto, ile kosztuje i jak nie przepłacić",
-    "primaryKeywords": ["zabudowa na wymiar", "stolarz na wymiar", "szafy na wymiar"],
+    "primaryKeywords": [
+      "zabudowa na wymiar",
+      "stolarz na wymiar",
+      "szafy na wymiar"
+    ],
     "intent": "lead"
   },
   {
     "slug": "podlogi-deska-winyl-mikrocement",
     "title": "Podłogi: deska, winyl czy mikrocement? Co wybrać do jakiego wnętrza",
-    "primaryKeywords": ["podłoga winylowa", "deska warstwowa", "mikrocement podłoga"],
+    "primaryKeywords": [
+      "podłoga winylowa",
+      "deska warstwowa",
+      "mikrocement podłoga"
+    ],
     "intent": "expert"
   },
   {
     "slug": "klimatyzacja-w-mieszkaniu-kiedy-ma-sens",
     "title": "Klimatyzacja w mieszkaniu: kiedy ma sens, gdzie ją zaplanować i o czym pamiętać",
-    "primaryKeywords": ["klimatyzacja w mieszkaniu", "montaż klimatyzacji", "klimatyzacja a projekt"],
+    "primaryKeywords": [
+      "klimatyzacja w mieszkaniu",
+      "montaż klimatyzacji",
+      "klimatyzacja a projekt"
+    ],
     "intent": "expert"
   },
   {
     "slug": "projekt-mieszkania-2-pokojowego-uklad",
     "title": "Projekt mieszkania 2‑pokojowego: układ, przechowywanie i strefy (bez chaosu)",
-    "primaryKeywords": ["mieszkanie 2 pokoje aranżacja", "projekt mieszkania", "układ 2 pokoje"],
+    "primaryKeywords": [
+      "mieszkanie 2 pokoje aranżacja",
+      "projekt mieszkania",
+      "układ 2 pokoje"
+    ],
     "intent": "lead"
   },
   {
     "slug": "projekt-kuchni-uklady-l-u-wyspa",
     "title": "Projekt kuchni: układ L/U/wyspa — co działa w praktyce i jak dobrać do metrażu",
-    "primaryKeywords": ["projekt kuchni", "układ kuchni", "wyspa kuchenna"],
+    "primaryKeywords": [
+      "projekt kuchni",
+      "układ kuchni",
+      "wyspa kuchenna"
+    ],
     "intent": "lead"
   },
   {
     "slug": "projekt-sypialni-oswietlenie-przechowywanie",
     "title": "Projekt sypialni: oświetlenie, przechowywanie i klimat (bez ‘hotelowej’ sztuczności)",
-    "primaryKeywords": ["aranżacja sypialni", "oświetlenie w sypialni", "szafa w sypialni"],
+    "primaryKeywords": [
+      "aranżacja sypialni",
+      "oświetlenie w sypialni",
+      "szafa w sypialni"
+    ],
     "intent": "inspiration"
   },
   {
     "slug": "kiedy-warto-robic-wizualizacje-3d",
     "title": "Czy wizualizacje 3D są potrzebne? Kiedy pomagają, a kiedy to zbędny koszt",
-    "primaryKeywords": ["wizualizacje 3D", "render wnętrza", "projekt wnętrza"],
+    "primaryKeywords": [
+      "wizualizacje 3D",
+      "render wnętrza",
+      "projekt wnętrza"
+    ],
     "intent": "lead"
   },
   {
     "slug": "jak-przygotowac-sie-do-projektu-wnetrza",
     "title": "Jak przygotować się do projektu wnętrza? Lista rzeczy, które przyspieszą pracę i obniżą koszty",
-    "primaryKeywords": ["projekt wnętrza", "jak przygotować się do remontu", "brief do projektanta"],
+    "primaryKeywords": [
+      "projekt wnętrza",
+      "jak przygotować się do remontu",
+      "brief do projektanta"
+    ],
     "intent": "lead"
   },
   {
     "slug": "projektowanie-wnetrz-warszawa-najczestsze-bledy",
     "title": "Projektowanie wnętrz: 12 najczęstszych błędów (które podnoszą koszty remontu)",
-    "primaryKeywords": ["błędy w remoncie", "projektowanie wnętrz", "koszty remontu"],
+    "primaryKeywords": [
+      "błędy w remoncie",
+      "projektowanie wnętrz",
+      "koszty remontu"
+    ],
     "intent": "lead"
   },
   {
     "slug": "styl-skandynawski-2026",
     "title": "Styl skandynawski w 2026: jak go zrobić świeżo (a nie jak w katalogu sprzed 10 lat)",
-    "primaryKeywords": ["styl skandynawski", "skandynawskie wnętrza", "aranżacja wnętrz"],
+    "primaryKeywords": [
+      "styl skandynawski",
+      "skandynawskie wnętrza",
+      "aranżacja wnętrz"
+    ],
     "intent": "inspiration"
   },
   {
     "slug": "styl-minimalistyczny-jak-nie-zrobic-zimno",
     "title": "Minimalizm, ale przytulnie: jak nie zrobić zimnego wnętrza",
-    "primaryKeywords": ["minimalizm wnętrza", "przytulny minimalizm", "minimalistyczne mieszkanie"],
+    "primaryKeywords": [
+      "minimalizm wnętrza",
+      "przytulny minimalizm",
+      "minimalistyczne mieszkanie"
+    ],
     "intent": "inspiration"
   },
   {
     "slug": "styl-eklektyczny-jak-laczyc",
     "title": "Styl eklektyczny: jak łączyć rzeczy, żeby wyglądało spójnie (a nie przypadkowo)",
-    "primaryKeywords": ["styl eklektyczny", "eklektyczne wnętrza", "jak łączyć style"],
+    "primaryKeywords": [
+      "styl eklektyczny",
+      "eklektyczne wnętrza",
+      "jak łączyć style"
+    ],
     "intent": "inspiration"
   },
   {
     "slug": "jak-urzadzic-salon-funkcjonalnie",
     "title": "Jak urządzić salon funkcjonalnie: układ, sofa, TV i światło (praktyczny przewodnik)",
-    "primaryKeywords": ["aranżacja salonu", "układ salonu", "oświetlenie salon"],
+    "primaryKeywords": [
+      "aranżacja salonu",
+      "układ salonu",
+      "oświetlenie salon"
+    ],
     "intent": "lead"
   },
   {
     "slug": "materialy-wykonczeniowe-co-wybrac",
     "title": "Materiały wykończeniowe: jak wybierać, żeby było trwałe i łatwe w utrzymaniu",
-    "primaryKeywords": ["materiały wykończeniowe", "wykończenie mieszkania", "trwałe materiały"],
+    "primaryKeywords": [
+      "materiały wykończeniowe",
+      "wykończenie mieszkania",
+      "trwałe materiały"
+    ],
     "intent": "expert"
+  },
+  {
+    "slug": "gres-vs-panele-w-kuchni",
+    "title": "Gres czy panele w kuchni? Trwałość, woda, komfort i estetyka",
+    "primaryKeywords": [],
+    "intent": "lead"
+  },
+  {
+    "slug": "jak-urzadzic-przedpokoj",
+    "title": "Przedpokój: jak go urządzić, żeby nie był tylko korytarzem (światło, szafa, siedzisko)",
+    "primaryKeywords": [],
+    "intent": "lead"
+  },
+  {
+    "slug": "jak-ustawic-gniazdka-w-kuchni",
+    "title": "Gniazdka w kuchni: ile, gdzie i na jakich obwodach (żeby nie było przedłużaczy)",
+    "primaryKeywords": [],
+    "intent": "lead"
+  },
+  {
+    "slug": "jak-wybrac-ekipe-remontowa",
+    "title": "Jak wybrać ekipę remontową: umowa, wycena i czerwone flagi (Warszawa)",
+    "primaryKeywords": [],
+    "intent": "lead"
+  },
+  {
+    "slug": "kolory-scian-jasne-czy-ciemne",
+    "title": "Jasne czy ciemne ściany? Jak dobrać kolor do światła i metrażu",
+    "primaryKeywords": [],
+    "intent": "lead"
+  },
+  {
+    "slug": "koszt-wykonczenia-mieszkania-za-m2",
+    "title": "Koszt wykończenia mieszkania za m²: standardy, widełki i co najbardziej podbija cenę",
+    "primaryKeywords": [],
+    "intent": "lead"
+  },
+  {
+    "slug": "kuchnia-na-wymiar-ile-kosztuje",
+    "title": "Kuchnia na wymiar: ile kosztuje, z czego się składa cena i jak nie przepłacić",
+    "primaryKeywords": [],
+    "intent": "lead"
+  },
+  {
+    "slug": "lazienka-maly-metraż-uklad",
+    "title": "Mała łazienka: układ, prysznic vs wanna i przechowywanie (bez błędów)",
+    "primaryKeywords": [],
+    "intent": "lead"
+  },
+  {
+    "slug": "listwy-przypodlogowe-jakie-wybrac",
+    "title": "Listwy przypodłogowe: rodzaje, wysokość i montaż (co wygląda premium)",
+    "primaryKeywords": [],
+    "intent": "lead"
+  },
+  {
+    "slug": "mieszkanie-z-rynku-wtornego-checklista",
+    "title": "Kupno mieszkania z rynku wtórnego: checklista oględzin + ukryte koszty remontu",
+    "primaryKeywords": [],
+    "intent": "lead"
+  },
+  {
+    "slug": "oswietlenie-led-tasmy-jak-zrobic",
+    "title": "Taśmy LED we wnętrzu: gdzie mają sens, jak je zaplanować i czego unikać",
+    "primaryKeywords": [],
+    "intent": "lead"
+  },
+  {
+    "slug": "plytki-wielki-format-czy-warto",
+    "title": "Płytki wielkoformatowe: kiedy warto, a kiedy to kłopot (i koszt)",
+    "primaryKeywords": [],
+    "intent": "lead"
+  },
+  {
+    "slug": "projekt-lazienki-bledy",
+    "title": "Projekt łazienki: 15 błędów, które wychodzą po miesiącu użytkowania",
+    "primaryKeywords": [],
+    "intent": "lead"
+  },
+  {
+    "slug": "projekt-salonu-z-telewizorem",
+    "title": "Ściana TV w salonie: układ, odległości, kable i zabudowa (bez chaosu)",
+    "primaryKeywords": [],
+    "intent": "lead"
+  },
+  {
+    "slug": "przechowywanie-w-mieszkaniu-system",
+    "title": "Przechowywanie w mieszkaniu: system, który działa (bez dokładania szaf co rok)",
+    "primaryKeywords": [],
+    "intent": "lead"
+  },
+  {
+    "slug": "remont-mieszkania-kolejnosc-prac",
+    "title": "Kolejność prac wykończeniowych: co po czym, żeby nie robić poprawek",
+    "primaryKeywords": [],
+    "intent": "lead"
+  },
+  {
+    "slug": "styl-japandi-bledy",
+    "title": "Japandi: najczęstsze błędy (i jak zrobić ten styl bez bezowej nudy)",
+    "primaryKeywords": [],
+    "intent": "lead"
+  },
+  {
+    "slug": "szafa-na-wymiar-przedpokoj",
+    "title": "Szafa na wymiar w przedpokoju: układ, głębokość i patenty na małą przestrzeń",
+    "primaryKeywords": [],
+    "intent": "lead"
+  },
+  {
+    "slug": "zabudowa-pralki-w-lazience",
+    "title": "Zabudowa pralki w łazience: wymiary, wentylacja i sprytne ukrycie AGD",
+    "primaryKeywords": [],
+    "intent": "lead"
   }
 ]
