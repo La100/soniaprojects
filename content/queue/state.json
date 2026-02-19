@@ -1,13 +1,13 @@
 {
-  "nextIndex": 11,
+  "nextIndex": 12,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 10,
-    "slug": "modern-classic-bez-kiczu",
-    "title": "Modern classic bez kiczu: zasady, materiały i kolory, które robią efekt premium",
-    "date": "2026-02-18",
-    "file": "content/blog/modern-classic-bez-kiczu.mdx"
+    "index": 11,
+    "slug": "soft-loft-w-bloku",
+    "title": "Soft loft: jak zrobić loft w bloku (ciepło, nie surowo)",
+    "date": "2026-02-19",
+    "file": "content/blog/soft-loft-w-bloku.mdx"
   }
 }
