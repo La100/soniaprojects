@@ -1,13 +1,13 @@
 {
-  "nextIndex": 12,
+  "nextIndex": 13,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 11,
-    "slug": "soft-loft-w-bloku",
-    "title": "Soft loft: jak zrobić loft w bloku (ciepło, nie surowo)",
+    "index": 12,
+    "slug": "quiet-luxury-wnetrza",
+    "title": "Quiet luxury we wnętrzach: jak wygląda „premium” w praktyce (a nie w teorii)",
     "date": "2026-02-19",
-    "file": "content/blog/soft-loft-w-bloku.mdx"
+    "file": "content/blog/quiet-luxury-wnetrza.mdx"
   }
 }
