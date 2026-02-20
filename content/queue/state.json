@@ -1,13 +1,13 @@
 {
-  "nextIndex": 15,
+  "nextIndex": 16,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 14,
-    "slug": "plan-oswietlenia-w-mieszkaniu",
-    "title": "Oświetlenie w mieszkaniu: plan warstwowy + najczęstsze błędy (i jak ich uniknąć)",
+    "index": 15,
+    "slug": "akustyka-w-mieszkaniu-co-dziala",
+    "title": "Akustyka w mieszkaniu: co naprawdę działa (i co jest mitem)",
     "date": "2026-02-20",
-    "file": "content/blog/plan-oswietlenia-w-mieszkaniu.mdx"
+    "file": "content/blog/akustyka-w-mieszkaniu-co-dziala.mdx"
   }
 }
