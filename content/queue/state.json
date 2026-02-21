@@ -1,13 +1,13 @@
 {
-  "nextIndex": 17,
+  "nextIndex": 18,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 16,
-    "slug": "jak-czytac-rzut-mieszkania",
-    "title": "Jak czytać rzut mieszkania? 10 rzeczy, które warto wyłapać przed projektem",
-    "date": "2026-02-20",
-    "file": "content/blog/jak-czytac-rzut-mieszkania.mdx"
+    "index": 17,
+    "slug": "zabudowa-stolarska-na-wymiar",
+    "title": "Zabudowa na wymiar: kiedy warto, ile kosztuje i jak nie przepłacić",
+    "date": "2026-02-21",
+    "file": "content/blog/zabudowa-stolarska-na-wymiar.mdx"
   }
 }
