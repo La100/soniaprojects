@@ -1,13 +1,13 @@
 {
-  "nextIndex": 23,
+  "nextIndex": 24,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 22,
-    "slug": "projekt-sypialni-oswietlenie-przechowywanie",
-    "title": "Projekt sypialni: oświetlenie, przechowywanie i klimat (bez ‘hotelowej’ sztuczności)",
-    "date": "2026-02-22",
-    "file": "content/blog/projekt-sypialni-oswietlenie-przechowywanie.mdx"
+    "index": 23,
+    "slug": "kiedy-warto-robic-wizualizacje-3d",
+    "title": "Czy wizualizacje 3D są potrzebne? Kiedy pomagają, a kiedy to zbędny koszt",
+    "date": "2026-02-23",
+    "file": "content/blog/kiedy-warto-robic-wizualizacje-3d.mdx"
   }
 }
