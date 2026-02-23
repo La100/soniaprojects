@@ -1,13 +1,13 @@
 {
-  "nextIndex": 24,
+  "nextIndex": 25,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 23,
-    "slug": "kiedy-warto-robic-wizualizacje-3d",
-    "title": "Czy wizualizacje 3D są potrzebne? Kiedy pomagają, a kiedy to zbędny koszt",
+    "index": 24,
+    "slug": "jak-przygotowac-sie-do-projektu-wnetrza",
+    "title": "Jak przygotować się do projektu wnętrza? Lista rzeczy, które przyspieszą pracę i obniżą koszty",
     "date": "2026-02-23",
-    "file": "content/blog/kiedy-warto-robic-wizualizacje-3d.mdx"
+    "file": "content/blog/jak-przygotowac-sie-do-projektu-wnetrza.mdx"
   }
 }
