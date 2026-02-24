@@ -1,13 +1,13 @@
 {
-  "nextIndex": 26,
+  "nextIndex": 27,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 25,
-    "slug": "projektowanie-wnetrz-warszawa-najczestsze-bledy",
-    "title": "Projektowanie wnętrz: 12 najczęstszych błędów (które podnoszą koszty remontu)",
-    "date": "2026-02-23",
-    "file": "content/blog/projektowanie-wnetrz-warszawa-najczestsze-bledy.mdx"
+    "index": 26,
+    "slug": "styl-skandynawski-2026",
+    "title": "Styl skandynawski w 2026: jak go zrobić świeżo (a nie jak w katalogu sprzed 10 lat)",
+    "date": "2026-02-24",
+    "file": "content/blog/styl-skandynawski-2026.mdx"
   }
 }
