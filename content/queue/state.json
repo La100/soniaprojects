@@ -1,13 +1,13 @@
 {
-  "nextIndex": 31,
+  "nextIndex": 32,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 30,
-    "slug": "materialy-wykonczeniowe-co-wybrac",
-    "title": "Materiały wykończeniowe: jak wybierać, żeby było trwałe i łatwe w utrzymaniu",
+    "index": 31,
+    "slug": "gres-vs-panele-w-kuchni",
+    "title": "Gres czy panele w kuchni? Trwałość, woda, komfort i estetyka",
     "date": "2026-02-25",
-    "file": "content/blog/materialy-wykonczeniowe-co-wybrac.mdx"
+    "file": "content/blog/gres-vs-panele-w-kuchni.mdx"
   }
 }
