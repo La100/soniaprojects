@@ -1,13 +1,13 @@
 {
-  "nextIndex": 33,
+  "nextIndex": 34,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 32,
-    "slug": "jak-urzadzic-przedpokoj",
-    "title": "Przedpokój: jak go urządzić, żeby nie był tylko korytarzem (światło, szafa, siedzisko)",
+    "index": 33,
+    "slug": "jak-ustawic-gniazdka-w-kuchni",
+    "title": "Gniazdka w kuchni: ile, gdzie i na jakich obwodach (żeby nie było przedłużaczy)",
     "date": "2026-02-26",
-    "file": "content/blog/jak-urzadzic-przedpokoj.mdx"
+    "file": "content/blog/jak-ustawic-gniazdka-w-kuchni.mdx"
   }
 }
