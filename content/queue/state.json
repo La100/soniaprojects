@@ -1,13 +1,13 @@
 {
-  "nextIndex": 32,
+  "nextIndex": 33,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 31,
-    "slug": "gres-vs-panele-w-kuchni",
-    "title": "Gres czy panele w kuchni? Trwałość, woda, komfort i estetyka",
-    "date": "2026-02-25",
-    "file": "content/blog/gres-vs-panele-w-kuchni.mdx"
+    "index": 32,
+    "slug": "jak-urzadzic-przedpokoj",
+    "title": "Przedpokój: jak go urządzić, żeby nie był tylko korytarzem (światło, szafa, siedzisko)",
+    "date": "2026-02-26",
+    "file": "content/blog/jak-urzadzic-przedpokoj.mdx"
   }
 }
