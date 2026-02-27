@@ -1,13 +1,13 @@
 {
-  "nextIndex": 35,
+  "nextIndex": 36,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 34,
-    "slug": "jak-wybrac-ekipe-remontowa",
-    "title": "Jak wybrać ekipę remontową: umowa, wycena i czerwone flagi (Warszawa)",
-    "date": "2026-02-26",
-    "file": "content/blog/jak-wybrac-ekipe-remontowa.mdx"
+    "index": 35,
+    "slug": "kolory-scian-jasne-czy-ciemne",
+    "title": "Jasne czy ciemne ściany? Jak dobrać kolor do światła i metrażu",
+    "date": "2026-02-27",
+    "file": "content/blog/kolory-scian-jasne-czy-ciemne.mdx"
   }
 }
