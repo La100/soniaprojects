@@ -1,13 +1,13 @@
 {
-  "nextIndex": 37,
+  "nextIndex": 38,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 36,
-    "slug": "koszt-wykonczenia-mieszkania-za-m2",
-    "title": "Koszt wykończenia mieszkania za m²: standardy, widełki i co najbardziej podbija cenę",
+    "index": 37,
+    "slug": "kuchnia-na-wymiar-ile-kosztuje",
+    "title": "Kuchnia na wymiar: ile kosztuje, z czego się składa cena i jak nie przepłacić",
     "date": "2026-02-27",
-    "file": "content/blog/koszt-wykonczenia-mieszkania-za-m2.mdx"
+    "file": "content/blog/kuchnia-na-wymiar-ile-kosztuje.mdx"
   }
 }
