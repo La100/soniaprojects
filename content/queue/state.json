@@ -1,13 +1,13 @@
 {
-  "nextIndex": 42,
+  "nextIndex": 43,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 41,
-    "slug": "oswietlenie-led-tasmy-jak-zrobic",
-    "title": "Taśmy LED we wnętrzu: gdzie mają sens, jak je zaplanować i czego unikać",
+    "index": 42,
+    "slug": "plytki-wielki-format-czy-warto",
+    "title": "Płytki wielkoformatowe: kiedy warto, a kiedy to kłopot (i koszt)",
     "date": "2026-03-09",
-    "file": "content/blog/oswietlenie-led-tasmy-jak-zrobic.mdx"
+    "file": "content/blog/plytki-wielki-format-czy-warto.mdx"
   }
 }
