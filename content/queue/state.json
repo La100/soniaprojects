@@ -1,13 +1,13 @@
 {
-  "nextIndex": 41,
+  "nextIndex": 42,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 40,
-    "slug": "mieszkanie-z-rynku-wtornego-checklista",
-    "title": "Kupno mieszkania z rynku wtórnego: checklista oględzin + ukryte koszty remontu",
-    "date": "2026-02-28",
-    "file": "content/blog/mieszkanie-z-rynku-wtornego-checklista.mdx"
+    "index": 41,
+    "slug": "oswietlenie-led-tasmy-jak-zrobic",
+    "title": "Taśmy LED we wnętrzu: gdzie mają sens, jak je zaplanować i czego unikać",
+    "date": "2026-03-09",
+    "file": "content/blog/oswietlenie-led-tasmy-jak-zrobic.mdx"
   }
 }
