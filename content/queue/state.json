@@ -1,13 +1,13 @@
 {
-  "nextIndex": 43,
+  "nextIndex": 44,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 42,
-    "slug": "plytki-wielki-format-czy-warto",
-    "title": "Płytki wielkoformatowe: kiedy warto, a kiedy to kłopot (i koszt)",
+    "index": 43,
+    "slug": "projekt-lazienki-bledy",
+    "title": "Projekt łazienki: 15 błędów, które wychodzą po miesiącu użytkowania",
     "date": "2026-03-09",
-    "file": "content/blog/plytki-wielki-format-czy-warto.mdx"
+    "file": "content/blog/projekt-lazienki-bledy.mdx"
   }
 }
