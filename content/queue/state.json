@@ -1,13 +1,13 @@
 {
-  "nextIndex": 44,
+  "nextIndex": 45,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 43,
-    "slug": "projekt-lazienki-bledy",
-    "title": "Projekt łazienki: 15 błędów, które wychodzą po miesiącu użytkowania",
-    "date": "2026-03-09",
-    "file": "content/blog/projekt-lazienki-bledy.mdx"
+    "index": 44,
+    "slug": "projekt-salonu-z-telewizorem",
+    "title": "Ściana TV w salonie: układ, odległości, kable i zabudowa (bez chaosu)",
+    "date": "2026-03-10",
+    "file": "content/blog/projekt-salonu-z-telewizorem.mdx"
   }
 }
