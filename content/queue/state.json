@@ -1,13 +1,13 @@
 {
-  "nextIndex": 46,
+  "nextIndex": 47,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 45,
-    "slug": "przechowywanie-w-mieszkaniu-system",
-    "title": "Przechowywanie w mieszkaniu: system, który działa (bez dokładania szaf co rok)",
+    "index": 46,
+    "slug": "remont-mieszkania-kolejnosc-prac",
+    "title": "Kolejność prac wykończeniowych: co po czym, żeby nie robić poprawek",
     "date": "2026-03-10",
-    "file": "content/blog/przechowywanie-w-mieszkaniu-system.mdx"
+    "file": "content/blog/remont-mieszkania-kolejnosc-prac.mdx"
   }
 }
