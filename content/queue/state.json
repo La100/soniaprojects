@@ -1,13 +1,13 @@
 {
-  "nextIndex": 45,
+  "nextIndex": 46,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 44,
-    "slug": "projekt-salonu-z-telewizorem",
-    "title": "Ściana TV w salonie: układ, odległości, kable i zabudowa (bez chaosu)",
+    "index": 45,
+    "slug": "przechowywanie-w-mieszkaniu-system",
+    "title": "Przechowywanie w mieszkaniu: system, który działa (bez dokładania szaf co rok)",
     "date": "2026-03-10",
-    "file": "content/blog/projekt-salonu-z-telewizorem.mdx"
+    "file": "content/blog/przechowywanie-w-mieszkaniu-system.mdx"
   }
 }
