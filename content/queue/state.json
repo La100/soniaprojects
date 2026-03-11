@@ -1,13 +1,13 @@
 {
-  "nextIndex": 47,
+  "nextIndex": 48,
   "startedAt": "2026-02-11",
   "timezone": "Europe/Warsaw",
   "hour": 8,
   "lastPublished": {
-    "index": 46,
-    "slug": "remont-mieszkania-kolejnosc-prac",
-    "title": "Kolejność prac wykończeniowych: co po czym, żeby nie robić poprawek",
-    "date": "2026-03-10",
-    "file": "content/blog/remont-mieszkania-kolejnosc-prac.mdx"
+    "index": 47,
+    "slug": "styl-japandi-bledy",
+    "title": "Japandi: najczęstsze błędy (i jak zrobić ten styl bez bezowej nudy)",
+    "date": "2026-03-11",
+    "file": "content/blog/styl-japandi-bledy.mdx"
   }
 }
